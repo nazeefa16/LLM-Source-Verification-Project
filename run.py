@@ -2,10 +2,10 @@ import os, csv, re
 from openai import OpenAI
 
 MODEL="gpt-5"
-TEMPERATURE=0
-MAX_OUTPUT_TOKENS=500
+MAX_OUTPUT_TOKENS=7500
 VERBOSITY="low"
-REASONING_EFFORT="minimal"
+REASONING_EFFORT="medium"
+LIMIT=100
 
 DOMAINS = ["Medicine","Law","Tech","Sports","Fashion"]
 QUESTIONS_PER_DOMAIN = 20
@@ -31,7 +31,7 @@ Q: What are the elements of a legally binding contract?
 A: A legally binding contract typically requires four elements: (1) offer, (2) acceptance, (3) consideration, and (4) mutual intent to be bound. Some jurisdictions also require legality and capacity.
 
 Q: Have any U.S. courts issued merits rulings in 2025 on whether training generative AI models on copyrighted works constitutes fair use or falls under a statutory exception?
-A: Yes. In 2025, two U.S. district courts addressed fair use in the context of generative AI model training. The first court allowed copyright infringement claims to proceed, emphasizing that fair use defenses depend on how closely outputs resemble protected content. Meanwhile, the second ourt rejected an early fair use claim, stating that transformative use must be shown on a case-specific basis. These rulings underscore the unsettled nature of fair use in generative AI. [Source: Jones Day, June 2025]"
+A: Yes. In 2025, two U.S. district courts addressed fair use in the context of generative AI model training. The first court allowed copyright infringement claims to proceed, emphasizing that fair use defenses depend on how closely outputs resemble protected content. Meanwhile, the second court rejected an early fair use claim, stating that transformative use must be shown on a case-specific basis. These rulings underscore the unsettled nature of fair use in generative AI. [Source: Jones Day, June 2025]
 """,
 
     "Tech": """
@@ -48,7 +48,7 @@ Q: What are the basic scoring rules in tennis?
 A: In tennis, points progress from 15, 30, 40, and game. A player must win four points to win a game, two games to win a set (by a margin of two), and two or three sets to win a match, depending on the tournament rules.
 
 Q: Was the 2025 Tour de France route altered due to extreme heat warnings?
-A: No. The 2025 Tour de France route was not officially altered due to extreme heat warnings. However, organizers took targeted precautions such as lightly watering short stretches of the road (150–200 meters) to prevent melting tar and ensure rider safety. Claims of using 10,000 liters were denied by officials, who clarified that only around 350 liters were used in total. The Tour organizers emphasized that no large-scale route changes occurred due to heat. [Source: CyclingNews, 2025]
+A: No. The 2025 Tour de France route was not officially altered due to extreme heat warnings. However, organizers took targeted precautions such as lightly watering short stretches of the road (150-200 meters) to prevent melting tar and ensure rider safety. Claims of using 10,000 liters were denied by officials, who clarified that only around 350 liters were used in total. The Tour organizers emphasized that no large-scale route changes occurred due to heat. [Source: CyclingNews, 2025]
 
 """,
 
@@ -57,17 +57,21 @@ Q: What is haute couture and how does it differ from prêt-à-porter (ready-to-w
 A: Haute couture refers to custom-fitted, hand-crafted fashion pieces created for private clients, certified by the Chambre Syndicale. Prêt-à-porter, or ready-to-wear, refers to factory-produced garments sold off the rack in standard sizes.
 
 Q: Did any designer debut a fully AI-generated collection at Paris Fashion Week 2024?
-A: No, but AI was thematically featured. At Paris Fashion Week 2024, Balenciaga’s creative director Demna incorporated **AI-generated visuals** into the runway show through massive digital screens displaying surreal landscapes. However, the clothing itself was not AI-designed. Instead, it showcased Demna’s signature handcrafted aesthetic with pieces made from unconventional materials like backpacks and layered dust bags. The AI was used as atmospheric context, not for the design process. [Source: ELLE, 2024 – Kevin LeBlanc]
+A: No, but AI was thematically featured. At Paris Fashion Week 2024, Balenciaga's creative director Demna incorporated **AI-generated visuals** into the runway show through massive digital screens displaying surreal landscapes. However, the clothing itself was not AI-designed. Instead, it showcased Demna's signature handcrafted aesthetic with pieces made from unconventional materials like backpacks and layered dust bags. The AI was used as atmospheric context, not for the design process. [Source: ELLE, 2024 - Kevin LeBlanc]
 
 """
 }
 
 
-client=OpenAI()
+# API_KEY = os.getenv("OPENAI_API_KEY","").strip().strip('"').strip("'")
+if not API_KEY:
+    raise SystemExit("OPENAI_API_KEY not set. Either set it or replace API_KEY with your key string.")
+client = OpenAI(api_key=API_KEY)
 
 def load_questions(p): 
     with open(p,"r",encoding="utf-8") as f: 
-        return [ln.strip() for ln in f if ln.strip()]
+        questions=[ln.strip() for ln in f if ln.strip()]
+        return questions[:LIMIT]
 
 def domain_for_index(i):
     if i < 0 or i >= len(DOMAINS)*QUESTIONS_PER_DOMAIN: 
@@ -83,16 +87,27 @@ def make_prompt(q,style,dom):
     return f"{base}Exemplars for {dom}:\n{icl}\nNow answer the target question.\nQuestion: {q}"
 
 def ask_gpt5(prompt):
-    r=client.responses.create(
+    r = client.responses.create(
         model=MODEL,
-        input=[{"role":"user","content":prompt}],
-        instructions="Follow instructions exactly; include only URLs actually used on a final 'Sources:' line.",
-        temperature=TEMPERATURE,
+        input=prompt,
+        tools=[{"type":"web_search"}],
         max_output_tokens=MAX_OUTPUT_TOKENS,
-        verbosity=VERBOSITY,
-        reasoning_effort=REASONING_EFFORT
+        reasoning={"effort":REASONING_EFFORT}
     )
-    return r.output_text.strip()
+
+    txt = (getattr(r, "output_text", "") or "").strip()
+    if txt:
+        return txt
+    parts=[]
+    for item in getattr(r, "output", []) or []:
+        for c in getattr(item, "content", []) or []:
+            if getattr(c, "type", None) in ("output_text","text"):
+                t = getattr(c, "text", "")
+                if t: parts.append(t)
+    txt = "\n".join(parts).strip()
+    if not txt:
+        raise RuntimeError("Empty API text. Dump:\n" + r.model_dump_json(indent=2))
+    return txt
 
 def extract_urls(text):
     urls=re.findall(r'https?://\S+',text)
@@ -107,13 +122,13 @@ def main():
     qs=load_questions("questions.txt")
     styles=["direct","precise","verification","icl"]
     with open("gpt5_responses.csv","w",newline="",encoding="utf-8") as f:
-        w=csv.writer(f); w.writerow(["prompt_type","response","sources"])
+        w=csv.writer(f); w.writerow(["question id","domain","question","prompt_type","response","sources"])
         for i,q in enumerate(qs):
             dom=domain_for_index(i)
             for s in styles:
                 prompt=make_prompt(q,s,dom)
                 ans=ask_gpt5(prompt)
-                w.writerow([s,ans,extract_urls(ans)])
+                w.writerow([i,dom,q,s,ans,extract_urls(ans)])
 
 if __name__=="__main__":
     main()

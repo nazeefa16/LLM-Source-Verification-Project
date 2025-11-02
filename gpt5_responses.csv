@@ -1,0 +1,259 @@
+prompt_type,response,sources
+direct,"Variables (MANTRELS) and points:
+- Migration of pain to RLQ (1)
+- Anorexia (1)
+- Nausea/vomiting (1)
+- RLQ tenderness (2)
+- Rebound tenderness (1)
+- Elevated temperature >37.3°C (99.1°F) (1)
+- Leukocytosis >10,000 (2)
+- Left shift (neutrophilia) (1). ([reference.medscape.com](https://reference.medscape.com/calculator/269/alvarado-score-for-acute-appendicitis?utm_source=openai))
+
+Common cutoffs/interpretation:
+- 1–4: low risk; many use <5 to “rule out” appendicitis (high sensitivity). ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/22204638/?utm_source=openai))
+- 5–6: intermediate; observe and/or image. ([bmcmedicine.biomedcentral.com](https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-9-139?utm_source=openai))
+- ≥7: high risk; surgical consult/rule-in threshold often used (some data suggest ≥8–9 improves rule-in). ([reference.medscape.com](https://reference.medscape.com/calculator/269/alvarado-score-for-acute-appendicitis?utm_source=openai))
+
+Sources:
+https://reference.medscape.com/calculator/269/alvarado-score-for-acute-appendicitis
+https://pubmed.ncbi.nlm.nih.gov/3963537/
+https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-9-139
+https://pubmed.ncbi.nlm.nih.gov/24731432/",https://reference.medscape.com/calculator/269/alvarado-score-for-acute-appendicitis?utm_source=openai; https://pubmed.ncbi.nlm.nih.gov/22204638/?utm_source=openai; https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-9-139?utm_source=openai; https://reference.medscape.com/calculator/269/alvarado-score-for-acute-appendicitis; https://pubmed.ncbi.nlm.nih.gov/3963537/; https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-9-139; https://pubmed.ncbi.nlm.nih.gov/24731432/
+precise,"Alvarado (MANTRELS) variables and points (cutoffs):
+- Migration of pain to RLQ – 1
+- Anorexia – 1
+- Nausea/vomiting – 1
+- RLQ tenderness – 2
+- Rebound pain – 1
+- Fever ≥37.3°C (99.1°F) – 1
+- Leukocytosis ≥10,000/mm³ – 2
+- Neutrophilia (“left shift”) ≥75% – 1
+Total 0–10. ([pedsurglibrary.com](https://www.pedsurglibrary.com/apsa/view/Pediatric-Surgery-NaT/829151/9/Acute_Abdominal_Pain?utm_source=openai))
+
+Common overall score cutoffs:
+- 0–4: low likelihood (often used to rule out)
+- 5–6: intermediate
+- ≥7: high probability (often prompts surgical assessment). ([bmcmedicine.biomedcentral.com](https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-9-139?utm_source=openai))
+
+Sources:
+https://www.pedsurglibrary.com/apsa/view/Pediatric-Surgery-NaT/829151/9/Acute_Abdominal_Pain
+https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-9-139",https://www.pedsurglibrary.com/apsa/view/Pediatric-Surgery-NaT/829151/9/Acute_Abdominal_Pain?utm_source=openai; https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-9-139?utm_source=openai; https://www.pedsurglibrary.com/apsa/view/Pediatric-Surgery-NaT/829151/9/Acute_Abdominal_Pain; https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-9-139
+verification,"Alvarado (MANTRELS) variables and thresholds (points):
+- Migration of pain to RLQ (1); Anorexia (1); Nausea/vomiting (1); RLQ tenderness (2); Rebound pain (1); Fever ≥37.3°C/99.1°F (1); Leukocytosis ≥10,000/μL (2); Left shift ≥75% neutrophils (1). ([aafp.org](https://www.aafp.org/pubs/afp/issues/2008/0315/p828.html?utm_source=openai))
+
+Score cutoffs:
+- 1–4 low risk; 5–6 intermediate (observe/further testing); 7–10 high risk (≥7 often used to “rule in”/proceed to surgery depending on context). ([link.springer.com](https://link.springer.com/article/10.1186/1741-7015-9-139))
+
+Why these sources: AAFP provides the original variable list with exact thresholds and points; the BMC Medicine systematic review defines the commonly used low/intermediate/high Alvarado cutoffs and clinical implications. ([aafp.org](https://www.aafp.org/pubs/afp/issues/2008/0315/p828.html?utm_source=openai))
+
+Sources:
+https://www.aafp.org/pubs/afp/issues/2008/0315/p828.html
+https://link.springer.com/article/10.1186/1741-7015-9-139",https://www.aafp.org/pubs/afp/issues/2008/0315/p828.html?utm_source=openai; https://link.springer.com/article/10.1186/1741-7015-9-139; https://www.aafp.org/pubs/afp/issues/2008/0315/p828.html
+icl,"Alvarado score (MANTRELS) variables and points:
+- Migration of pain to RLQ: 1
+- Anorexia: 1
+- Nausea/vomiting: 1
+- RLQ tenderness: 2
+- Rebound tenderness: 1
+- Fever ≥37.3°C (99.1°F): 1
+- Leukocytosis ≥10,000/μL: 2
+- Left shift (neutrophils ≥75%): 1
+Total: 0–10.
+
+Common cutoffs/interpretation:
+- 1–4: low likelihood (often safe to observe).
+- 5–6: compatible/intermediate risk.
+- ≥7: probable appendicitis; 9–10 very probable.
+Evidence commonly uses 5 as a “rule-out” threshold and 7 as a “rule-in” threshold, though rule-in performance is imperfect.
+
+Sources:
+https://www.aafp.org/pubs/afp/issues/2018/0701/p25/jcr%3Acontent/root/aafp-article-primary-content-container/aafp_article_main_par/aafp_tables_content2.enlarge.html
+https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-9-139
+https://pubmed.ncbi.nlm.nih.gov/3963537/",https://www.aafp.org/pubs/afp/issues/2018/0701/p25/jcr%3Acontent/root/aafp-article-primary-content-container/aafp_article_main_par/aafp_tables_content2.enlarge.html; https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-9-139; https://pubmed.ncbi.nlm.nih.gov/3963537/
+direct,"Tokyo Guidelines (TG13; adopted unchanged in TG18) define three grades:
+
+- Grade III (severe): organ dysfunction in any one system—cardiovascular (hypotension needing dopamine >5 μg/kg/min or any norepinephrine), neurologic (decreased consciousness), respiratory (PaO2/FiO2 <300), renal (oliguria or creatinine >2.0 mg/dL), hepatic (PT-INR >1.5), hematologic (platelets <100,000/mm3).
+- Grade II (moderate): any of WBC >18,000/μL; palpable tender RUQ mass; symptoms >72 h; marked local inflammation (gangrene, pericholecystic/hepatic abscess, biliary peritonitis, emphysematous cholecystitis).
+- Grade I (mild): does not meet Grade II/III; no organ dysfunction; mild gallbladder inflammation. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3429769/?utm_source=openai))
+
+Sources:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3429769/
+https://www.mdpi.com/2077-0383/12/14/4711
+https://snu.elsevierpure.com/en/publications/tokyo-guidelines-2018-diagnostic-criteria-and-severity-grading-of",https://pmc.ncbi.nlm.nih.gov/articles/PMC3429769/?utm_source=openai; https://pmc.ncbi.nlm.nih.gov/articles/PMC3429769/; https://www.mdpi.com/2077-0383/12/14/4711; https://snu.elsevierpure.com/en/publications/tokyo-guidelines-2018-diagnostic-criteria-and-severity-grading-of
+precise,"Tokyo Guidelines classify acute cholecystitis severity into:
+- Grade I (mild): No organ dysfunction; does not meet Grade II criteria.
+- Grade II (moderate): Any one of the following—WBC >18,000/mm³; palpable tender right‑upper‑quadrant mass; symptoms >72 hours; marked local inflammation (e.g., gangrenous cholecystitis, pericholecystic/hepatic abscess, biliary peritonitis, emphysematous cholecystitis).
+- Grade III (severe): Organ dysfunction in any one system—cardiovascular (hypotension requiring dopamine ≥5 μg/kg/min or any dose of dobutamine), neurologic (decreased consciousness), respiratory (PaO2/FiO2 <300), renal (oliguria or creatinine >2.0 mg/dL), hepatic (INR >1.5), hematologic (platelets <100,000/μL). ([link.springer.com](https://link.springer.com/article/10.1007/s00534-012-0548-0/tables/2))
+
+Sources:
+https://link.springer.com/article/10.1007/s00534-012-0548-0/tables/2
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2784516/",https://link.springer.com/article/10.1007/s00534-012-0548-0/tables/2; https://pmc.ncbi.nlm.nih.gov/articles/PMC2784516/
+verification,"Tokyo Guidelines severity for acute cholecystitis:
+- Grade I (mild): no organ dysfunction; not meeting II/III.
+- Grade II (moderate): any of—WBC >18,000/µL; RUQ tender mass; symptoms >72 h; marked local inflammation (gangrene, pericholecystic or hepatic abscess, biliary peritonitis, emphysematous cholecystitis). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3429769/?utm_source=openai))
+- Grade III (severe): organ dysfunction—cardiovascular (dopamine ≥5 µg/kg/min or any norepinephrine); neurologic (decreased consciousness); respiratory (PaO2/FiO2 <300); renal (oliguria or creatinine >2.0 mg/dL); hepatic (PT‑INR >1.5); hematologic (platelets <100,000/µL). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3429769/?utm_source=openai))
+
+Source relevance: TG13 details the explicit severity criteria, and TG18 confirms TG13 severity grading was adopted without modification. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3429769/?utm_source=openai))
+
+Sources:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3429769/
+https://pubmed.ncbi.nlm.nih.gov/29032636/",https://pmc.ncbi.nlm.nih.gov/articles/PMC3429769/?utm_source=openai; https://pmc.ncbi.nlm.nih.gov/articles/PMC3429769/; https://pubmed.ncbi.nlm.nih.gov/29032636/
+icl,"Tokyo Guidelines (TG13; adopted unchanged in TG18) define three grades:
+
+- Grade I (mild): No organ dysfunction; does not meet Grade II/III; mild gallbladder inflammation—low-risk cholecystectomy feasible. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/29032636/?utm_source=openai))
+- Grade II (moderate): Any of the following—WBC >18,000/µL; palpable tender RUQ mass; symptom duration >72 hours; marked local inflammation (gangrenous, emphysematous cholecystitis; pericholecystic/hepatic abscess; biliary peritonitis). ([mdpi.com](https://www.mdpi.com/2075-4426/13/9/1335?utm_source=openai))
+- Grade III (severe): Organ dysfunction in any system:
+  - Cardiovascular: hypotension requiring dopamine ≥5 µg/kg/min or any norepinephrine
+  - Neurologic: decreased consciousness
+  - Respiratory: PaO2/FiO2 <300
+  - Renal: oliguria or creatinine >2.0 mg/dL
+  - Hepatic: PT-INR >1.5
+  - Hematologic: platelets <100,000/µL. ([mdpi.com](https://www.mdpi.com/2075-4426/13/9/1335?utm_source=openai))
+
+Note: TG18 retained TG13 severity criteria without modification. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/29032636/?utm_source=openai))
+
+Sources:
+https://pubmed.ncbi.nlm.nih.gov/29032636/
+https://www.mdpi.com/2075-4426/13/9/1335
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11916569/",https://pubmed.ncbi.nlm.nih.gov/29032636/?utm_source=openai; https://www.mdpi.com/2075-4426/13/9/1335?utm_source=openai; https://pubmed.ncbi.nlm.nih.gov/29032636/; https://www.mdpi.com/2075-4426/13/9/1335; https://pmc.ncbi.nlm.nih.gov/articles/PMC11916569/
+direct,"Positive FAST = ultrasound evidence of free fluid.
+Key findings (anechoic fluid):
+- RUQ: Morison’s pouch (hepatorenal recess) or above the liver/right paracolic gutter.
+- LUQ: around spleen (splenorenal recess), between spleen and diaphragm, or left paracolic gutter.
+- Pelvis: posterior to bladder (rectovesical pouch) or posterior to uterus (pouch of Douglas).
+- Cardiac view: pericardial effusion surrounding the heart (hemopericardium).
+
+Extended FAST (not required for basic FAST) also considers hemothorax (pleural fluid) and pneumothorax signs (absent lung sliding/lung point). ([acep.org](https://www.acep.org/sonoguide/basic/fast?utm_source=openai))
+
+Sources:
+https://www.acep.org/sonoguide/basic/fast
+https://www.ncbi.nlm.nih.gov/books/NBK470479/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8933745/",https://www.acep.org/sonoguide/basic/fast?utm_source=openai; https://www.acep.org/sonoguide/basic/fast; https://www.ncbi.nlm.nih.gov/books/NBK470479/; https://pmc.ncbi.nlm.nih.gov/articles/PMC8933745/
+precise,"Positive FAST = visualization of anechoic free fluid in any target space:
+- Intraperitoneal: RUQ (Morison’s pouch/right paracolic gutter), LUQ (splenorenal/subphrenic), or pelvis (rectouterine/rectovesical). 
+- Pericardial: pericardial effusion. 
+Many centers use eFAST; additional positives are pleural fluid (hemothorax) or pneumothorax signs (absent lung sliding/barcode sign). ([acep.org](https://www.acep.org/sonoguide/basic/fast?utm_source=openai))
+
+Sources:
+https://www.acep.org/sonoguide/basic/fast
+https://www.ncbi.nlm.nih.gov/books/NBK470479/",https://www.acep.org/sonoguide/basic/fast?utm_source=openai; https://www.acep.org/sonoguide/basic/fast; https://www.ncbi.nlm.nih.gov/books/NBK470479/
+verification,"Positive FAST = visualization of anechoic free fluid in any dependent intraperitoneal space or an anechoic pericardial effusion on the standard windows. ([acep.org](https://www.acep.org/sonoguide/basic/fast))
+Typical positive sites: RUQ hepatorenal recess/Morison’s pouch and right paracolic gutter; LUQ perisplenic/splenorenal or subphrenic; pelvis (rectovesical/rectouterine pouch of Douglas). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3831800/?utm_source=openai))
+Clotted blood may appear hypoechoic/heterogeneous yet still represents free fluid; even trace pelvic free fluid may be considered positive. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8933745/?utm_source=openai))
+
+Why these sources: They include an ACEP practice guide and peer‑reviewed consensus/review articles that define FAST’s purpose and specify the sonographic appearance and locations constituting a positive exam.
+
+Sources:
+https://www.acep.org/sonoguide/basic/fast
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8933745/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3831800/",https://www.acep.org/sonoguide/basic/fast; https://pmc.ncbi.nlm.nih.gov/articles/PMC3831800/?utm_source=openai; https://pmc.ncbi.nlm.nih.gov/articles/PMC8933745/?utm_source=openai; https://pmc.ncbi.nlm.nih.gov/articles/PMC8933745/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3831800/
+icl,"Positive FAST = any sonographically detected free fluid in trauma-dependent spaces:
+- RUQ: hepatorenal recess (Morison’s pouch), ± right paracolic gutter/subdiaphragmatic space
+- LUQ: splenorenal recess, ± left subdiaphragmatic space
+- Pelvis: rectouterine (pouch of Douglas) or rectovesical pouch
+- Pericardial space: pericardial effusion on the subxiphoid/cardiac view
+
+Fluid is typically anechoic (may become mixed echogenic as blood clots). In eFAST, pleural fluid (hemothorax) or pneumothorax signs are additional, but classic FAST focuses on peritoneal and pericardial fluid. ([ncbi.nlm.nih.gov](https://www.ncbi.nlm.nih.gov/books/NBK470479/?utm_source=openai))
+
+Sources:
+https://www.ncbi.nlm.nih.gov/books/NBK470479/
+https://www.merckmanuals.com/en-pr/professional/injuries-poisoning/abdominal-trauma/overview-of-abdominal-trauma
+https://pmc.ncbi.nlm.nih.gov/articles/PMC1914302/",https://www.ncbi.nlm.nih.gov/books/NBK470479/?utm_source=openai; https://www.ncbi.nlm.nih.gov/books/NBK470479/; https://www.merckmanuals.com/en-pr/professional/injuries-poisoning/abdominal-trauma/overview-of-abdominal-trauma; https://pmc.ncbi.nlm.nih.gov/articles/PMC1914302/
+direct,"Definition/clinical context: Pattern seen when chest pain has resolved, indicating critical proximal LAD stenosis and high short‑term risk of large anterior MI. Troponin may be normal or only slightly elevated. Avoid stress testing; urgent cardiology evaluation is warranted.
+
+ECG (recorded in pain‑free state):
+- Precordial leads V2–V3 (may extend V1–V6).
+- Isoelectric or minimal ST elevation (<1 mm).
+- No precordial Q waves; preserved R‑wave progression.
+- T‑wave “pseudonormalization” may occur during pain.
+
+Types:
+- Type A (Type 1): Biphasic T waves with initial positivity and terminal negativity; ~25% of cases.
+- Type B (Type 2): Deep, symmetric T‑wave inversion; ~75% of cases. ([litfl.com](https://litfl.com/wellens-syndrome-ecg-library/?utm_source=openai))
+
+Sources:
+https://litfl.com/wellens-syndrome-ecg-library/
+https://www.ncbi.nlm.nih.gov/sites/books/NBK482490/",https://litfl.com/wellens-syndrome-ecg-library/?utm_source=openai; https://litfl.com/wellens-syndrome-ecg-library/; https://www.ncbi.nlm.nih.gov/sites/books/NBK482490/
+precise,"Definition: A “pain-free” ECG pattern after recent angina that signifies critical proximal LAD ischemia.
+
+Type A: Biphasic T waves (initial up, terminal down) in V2–V3; may extend across V1–V6.
+
+Type B: Deep, symmetric T‑wave inversion in V2–V3; may extend across precordial leads.
+
+Additional ECG/clinical features:
+- Minimal or no ST deviation (typically <1 mm)
+- No precordial Q waves and preserved R‑wave progression
+- Pattern present when pain-free; troponin normal or only mildly elevated
+- Highly specific for LAD disease; type A may evolve to type B
+
+Sources:
+https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/01/20/17/59/wellens-syndrome
+https://www.ncbi.nlm.nih.gov/sites/books/NBK482490/",https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/01/20/17/59/wellens-syndrome; https://www.ncbi.nlm.nih.gov/sites/books/NBK482490/
+verification,"- Type A: biphasic T waves in V2–V3 (initial positive, terminal negative). 
+- Type B: deep, symmetric T‑wave inversion in V2–V3 (may extend V1–V6). 
+Clinical context/criteria: recent angina now pain‑free; ECG pattern present in pain‑free state; isoelectric or minimal ST elevation (<1 mm); preserved R‑wave progression; no precordial Q waves; normal or slightly elevated biomarkers; T waves may pseudonormalize during pain; indicates critical LAD stenosis with high risk of impending large anterior MI and need for urgent angiography. ([litfl.com](https://litfl.com/wellens-syndrome-ecg-library/?utm_source=openai))
+
+These sources concisely define the two ECG patterns and the diagnostic clinical context/criteria for Wellens syndrome used in emergency and cardiology practice. ([litfl.com](https://litfl.com/wellens-syndrome-ecg-library/?utm_source=openai))
+
+Sources:
+https://litfl.com/wellens-syndrome-ecg-library/
+https://www.ncbi.nlm.nih.gov/sites/books/NBK482490/",https://litfl.com/wellens-syndrome-ecg-library/?utm_source=openai; https://litfl.com/wellens-syndrome-ecg-library/; https://www.ncbi.nlm.nih.gov/sites/books/NBK482490/
+icl,"Wellens syndrome is a post-anginal, pain-free ECG pattern indicating critical proximal LAD disease. Type A: biphasic T waves in V2–V3 (initial positive, terminal negative). Type B: deep, symmetric T-wave inversion in V2–V3; changes may extend V1–V6. Typical accompanying features: little/no ST elevation (<1 mm), no precordial Q waves, preserved R-wave progression, and normal or mildly elevated biomarkers; during pain, T waves may pseudonormalize. Patients are at high risk of imminent anterior MI—avoid stress testing; arrange urgent cardiology and angiography. ([litfl.com](https://litfl.com/wellens-syndrome-ecg-library/?utm_source=openai))
+
+Sources:
+https://litfl.com/wellens-syndrome-ecg-library/
+https://www.ncbi.nlm.nih.gov/sites/books/NBK482490/",https://litfl.com/wellens-syndrome-ecg-library/?utm_source=openai; https://litfl.com/wellens-syndrome-ecg-library/; https://www.ncbi.nlm.nih.gov/sites/books/NBK482490/
+direct,"Diagnostic criteria:
+
+InterTAK Diagnostic Criteria (2018, preferred)
+- Transient LV regional dysfunction (apical, midventricular, basal, or focal; often beyond one coronary territory; RV may be involved). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5991216/?utm_source=openai))
+- Physical/emotional trigger may occur; neurologic disease or pheochromocytoma can trigger. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5991216/?utm_source=openai))
+- New ECG changes (ST elevation/depression, T‑wave inversion, QTc prolongation). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5991216/?utm_source=openai))
+- Modest troponin/CK rise; BNP often high. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5991216/?utm_source=openai))
+- CAD may coexist; exclude infectious myocarditis; usually affects postmenopausal women. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5991216/?utm_source=openai))
+
+Modified Mayo Clinic criteria (2008)
+- Transient LV mid‑segment ± apical hypokinesis/akinesis beyond a single vascular territory.
+- No obstructive CAD or acute plaque rupture.
+- New ECG changes or modest troponin rise.
+- Exclude pheochromocytoma and myocarditis. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6714036/?utm_source=openai))
+
+Sources:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5991216/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6714036/",https://pmc.ncbi.nlm.nih.gov/articles/PMC5991216/?utm_source=openai; https://pmc.ncbi.nlm.nih.gov/articles/PMC6714036/?utm_source=openai; https://pmc.ncbi.nlm.nih.gov/articles/PMC5991216/; https://pmc.ncbi.nlm.nih.gov/articles/PMC6714036/
+precise,"The contemporary standard is the InterTAK Diagnostic Criteria (2018):
+- Transient LV dysfunction with typical wall‑motion patterns (apical, midventricular, basal, or focal); RV may be involved; usually beyond one coronary territory.
+- Trigger may be emotional or physical but is not required; neurologic disease or pheochromocytoma can trigger.
+- New ECG changes (ST elevation/depression, T‑wave inversion, or QTc prolongation).
+- Moderate troponin/CK rise; BNP commonly elevated.
+- Significant coronary artery disease can coexist.
+- No infectious myocarditis (cardiac MRI recommended to exclude).
+- Predominant in post‑menopausal women. ([academic.oup.com](https://academic.oup.com/eurheartj/article/39/22/2032/5025412))
+
+Classic modified Mayo criteria (2008) emphasize transient wall‑motion abnormality beyond a single vascular territory, absence of obstructive CAD/acute plaque rupture, new ECG changes or modest troponin rise, and exclusion of pheochromocytoma or myocarditis. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/20582391/?utm_source=openai))
+
+Sources:
+https://academic.oup.com/eurheartj/article/39/22/2032/5025412
+https://pubmed.ncbi.nlm.nih.gov/20582391/",https://academic.oup.com/eurheartj/article/39/22/2032/5025412; https://pubmed.ncbi.nlm.nih.gov/20582391/?utm_source=openai; https://pubmed.ncbi.nlm.nih.gov/20582391/
+verification,"Diagnostic criteria (InterTAK, 2018) for takotsubo syndrome:
+- Transient LV systolic dysfunction (apical, mid‑ventricular, basal, or focal variants); RV may be involved; wall‑motion pattern usually extends beyond a single epicardial territory. ([academic.oup.com](https://academic.oup.com/eurheartj/article/39/22/2032/5025412))
+- Emotional/physical trigger may occur but is not required; neurologic disease and pheochromocytoma can be triggers. ([academic.oup.com](https://academic.oup.com/eurheartj/article/39/22/2032/5025412))
+- New ECG changes (ST elevation/depression, T‑wave inversion, QTc prolongation) and modest troponin/CK rise; BNP often elevated. ([academic.oup.com](https://academic.oup.com/eurheartj/article/39/22/2032/5025412))
+- Significant CAD may coexist; diagnosis requires no culprit lesion explaining dysfunction. ([link.springer.com](https://link.springer.com/article/10.1007/s12574-020-00480-y?utm_source=openai))
+- No evidence of infectious myocarditis (CMR recommended). ([academic.oup.com](https://academic.oup.com/eurheartj/article/39/22/2032/5025412))
+- Predominantly affects postmenopausal women; function typically recovers. ([academic.oup.com](https://academic.oup.com/eurheartj/article/39/22/2032/5025412))
+
+Why these sources: The 2018 European Heart Journal international consensus established the InterTAK diagnostic criteria, and an ESC imaging consensus reproduces and clarifies them regarding coexistence with CAD. ([academic.oup.com](https://academic.oup.com/eurheartj/article/39/22/2032/5025412))
+
+Sources:
+https://academic.oup.com/eurheartj/article/39/22/2032/5025412
+https://academic.oup.com/ehjcimaging/article-abstract/21/11/1184/5898275",https://academic.oup.com/eurheartj/article/39/22/2032/5025412; https://link.springer.com/article/10.1007/s12574-020-00480-y?utm_source=openai; https://academic.oup.com/ehjcimaging/article-abstract/21/11/1184/5898275
+icl,"Two commonly used sets:
+
+- InterTAK (2018): transient LV regional wall‑motion abnormality (apical/mid/basal/focal; ±RV) usually beyond one coronary territory; an emotional/physical trigger may precede; neurologic disease or pheochromocytoma can trigger; new ECG changes (ST elevation/depression, T‑wave inversion, QTc prolongation); modest troponin/CK rise and elevated BNP; CAD may coexist; no infectious myocarditis (CMR recommended); predominantly postmenopausal women. ([academic.oup.com](https://academic.oup.com/eurheartj/article/39/22/2032/5025412))
+
+- Modified Mayo Clinic (2008): transient LV mid/apical dysfunction beyond a single vascular territory; absence of obstructive CAD or acute plaque rupture; new ECG abnormalities or modest troponin elevation; absence of pheochromocytoma and myocarditis. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6714036/?utm_source=openai))
+
+Sources:
+https://academic.oup.com/eurheartj/article/39/22/2032/5025412
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6714036/",https://academic.oup.com/eurheartj/article/39/22/2032/5025412; https://pmc.ncbi.nlm.nih.gov/articles/PMC6714036/?utm_source=openai; https://pmc.ncbi.nlm.nih.gov/articles/PMC6714036/

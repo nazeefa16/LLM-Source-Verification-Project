@@ -1,0 +1,100 @@
+What variables and cutoffs are used in the Alvarado score for suspected appendicitis?
+What severity grades and criteria are defined by the Tokyo Guidelines for acute cholecystitis?
+What imaging findings define a positive FAST exam in blunt abdominal trauma?
+What ECG patterns and clinical context define Wellens syndrome (types A and B)?
+What are the diagnostic criteria for takotsubo cardiomyopathy?
+What major and minor criteria diagnose infective endocarditis?
+What clinical and laboratory criteria define sepsis and septic shock (Sepsis-3)?
+What pre-exposure and post-exposure prophylaxis regimens exist for HIV, and what baseline labs are required?
+What components and cutoffs define the Ottawa ankle rules and Ottawa knee rules?
+What is the SOFA score composition, and how is it used in sepsis?
+What are the ABCDE warning signs of melanoma?
+What are the normal ranges for PR, QRS, and QTc intervals on ECG?
+What are first-line drug classes for initial hypertension management in adults?
+What is the difference between unstable angina and NSTEMI?
+What red-flag findings in acute headache mandate emergent neuroimaging?
+What is the first-line acute treatment for ischemic stroke within the thrombolysis window?
+What are standard infection-control precautions (contact, droplet, airborne) and when are they used?
+What are common red flags in chest pain that suggest ACS?
+What are the typical symptoms and first-line treatments for iron-deficiency anemia?
+What are the signs and initial management of anaphylaxis?
+Have there been legal cases challenging the use of GPT-generated legal briefs in court filings?
+Did the International Criminal Court open any investigations related to environmental destruction in the Amazon in 2024?
+Is there a binding law in the UK that bans the use of facial recognition software in public protests as of 2025?
+Has the United Nations recognized environmental destruction (ecocide) as an international crime yet?
+Are “algorithmic discrimination” cases now being tried under Title VII of the U.S. Civil Rights Act as of 2025?
+Did the U.S. Supreme Court issue a decision in 2025 on the constitutionality of state laws regulating social-media content moderation (e.g., Texas HB 20, Florida SB 7072)?
+Has any national patent office or high court recognized an AI system as an inventor on a patent application as of 2025?
+Have any U.S. or UK courts issued merits rulings in 2024–2025 on whether training generative AI models on copyrighted works constitutes fair use or falls under a statutory exception?
+Did the Inter-American Court of Human Rights issue a decision in 2024 recognizing climate migration as grounds for asylum?
+Has any Latin American country criminalized misinformation related to elections as of 2025?
+What are the Miranda rights in U.S. criminal procedure?
+What are the key elements of a legally binding contract?
+What are the main types of intellectual property rights?
+What are the elements of negligence, and how is duty of care established?
+What are the elements of defamation for public figures versus private individuals, and what defenses apply?
+What protections does the Fourth Amendment provide?
+What is the difference between reasonable suspicion and probable cause, and how do these standards apply to stops, frisks, and arrests?
+What are the elements of burglary, robbery, larceny, and embezzlement under common law, and how do modern statutes typically differ?
+What are the four fair-use factors in U.S. copyright law, and how are they balanced?
+Under UCC Article 2, who qualifies as a “merchant,” and how do firm offers and “battle of the forms” operate?
+What maximum power level is defined by USB Power Delivery 3.1 EPR, and what cable requirement enables it?
+Python requests.get() default timeout is what (if not provided)?
+What is the maximum size (in bytes) of a single ConfigMap (total data) in Kubernetes?
+What does docker run --init add to the container process tree and why is it useful?
+Python logging.basicConfig() will configure handlers how many times in a process by default?
+What dtype does np.arange(0, 3) produce by default, and how does that differ from np.arange(0.0, 3.0)?
+What is the default value of requires_grad for tensors created by factory functions like torch.randn in PyTorch?
+What config option changes the default initial branch name created by git init?
+In AWS S3 Multipart Upload what is the minimum part size (in MB) for parts other than the last one?
+What TLS extension negotiates the application protocol (name the extension)?
+What is the default TCP port number for HTTPS?
+In Big-O notation, what are the average-case and worst-case time complexities of quicksort?
+In relational databases, what does ACID stand for?
+Which HTTP methods are specified as idempotent in the HTTP standard?
+In ML, what is the difference between precision and recall?
+What is the purpose of SSL/TLS?
+What is virtual memory?
+How many bits are in an IPv6 address?
+What is the difference between PUT and PATCH semantics in HTTP?
+Which HTTP status code indicates Permanent Redirect?
+Was the 2025 Tour de France route altered due to extreme heat warnings?
+Has FIFA approved any experimental rule changes regarding extra time substitutions as of 2025?
+Has any female athlete in the 2025 World Athletics Championships set a new javelin throw world record?
+Was there any controversy around VAR decisions in the 2024 UEFA Champions League final?
+Was the 2025 Copa Libertadores final moved from its original host city due to political unrest?
+Has any African nation proposed a regional esports federation recognized by their national Olympic committee as of 2025?
+Has the Major League Baseball (MLB) implemented a pitch clock reset rule for postseason games as of 2025?
+Has the UEFA introduced a salary cap pilot program in any youth league as of 2025?
+Was any athlete disqualified from the 2024 Paris Paralympics for using unapproved prosthetic technology?
+Did any tennis Grand Slam in 2024 implement a coaching-from-the-stands rule change?
+Who has won the most FIFA World Cup titles in men’s football?
+What are the basic rules of cricket’s LBW (Leg Before Wicket) law?
+How many Grand Slam titles has Novak Djokovic won as of 2025?
+What is the standard length of a marathon race?
+Who holds the Olympic record for the 100-meter sprint?
+What is the role of a quarterback in American football?
+Which country hosted the 2024 Summer Olympics?
+What are the key differences between rugby union and rugby league?
+How many players are on a standard basketball team during a game?
+What are the basic scoring rules in tennis?
+Did any designer debut a fully AI-generated collection at Paris Fashion Week 2024?
+Has any country introduced legislation regulating fast fashion imports as of 2025?
+Was Margiela’s Fall 1997 show inspired by post-Soviet youth culture?
+Has the CFDA (Council of Fashion Designers of America) issued any sustainability mandates for members in 2025?
+Did a major fashion house use biodegradable sequins in a 2024 couture collection?
+Was the “bloke-core” trend represented on any runway during Fashion Month 2025?
+Did Vogue or Elle magazine feature indigenous-led fashion brands on their 2024 covers?
+Has New York Fashion Week officially added a gender-neutral category as of 2025?
+Was denim entirely absent from any major fashion week collection in 2024?
+Did Balenciaga release a clothing line in 2025 themed around digital minimalism or anti-technology?
+What is haute couture and how does it differ from prêt-à-porter (ready-to-wear)?
+Who is considered the founder of the modern fashion industry?
+What are the four major global fashion weeks?
+What is the difference between fast fashion and sustainable fashion?
+Who was Coco Chanel and what is her contribution to women’s fashion?
+What is the historical significance of the “Little Black Dress”?
+How do fashion trends typically emerge and spread globally?
+What are the basic elements of a fashion collection?
+How has social media influenced the fashion industry?
+What is the impact of fashion influencers on consumer behavior?
