@@ -1,0 +1,39 @@
+question 11
+
+Question: What are the normal ranges for PR, QRS, and QTc intervals on ECG?
+
+Method: verification
+
+Response incorrect: Response is inaccurate as QTc lower bound is not provided
+
+question 11
+
+Question: What are the normal ranges for PR, QRS, and QTc intervals on ECG?
+
+Method: icl
+
+Response incorrect: Response is inaccurate as QTc lower bound is not provided
+
+question 13
+
+Question: What is the difference between unstable angina and NSTEMI?
+
+Method: precise
+
+Source(s) invalid: First source is cut off so it is invalidResponse is still accurate based on content
+
+question id 14
+
+Question: What red-flag findings in acute headache mandate emergent neuroimaging?
+
+Method: verification
+
+Response incorrect: Response is inaccurate as the final red flag listed although serious does not require emergent neuroimaging
+
+question id 40
+
+Question: What maximum power level is defined by USB Power Delivery 3.1 EPR, and what cable requirement enables it?
+
+Method: icl
+
+Source(s) invalid: First link redirects to home page. Sources should be openable by the user to be considered valid
