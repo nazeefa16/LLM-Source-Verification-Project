@@ -1,8 +1,10 @@
-import os, csv, re
-from openai import OpenAI
+import os, csv, re, time
+from google import genai
+from google.genai import types, errors
 
-MODEL="gpt-5"
-MAX_OUTPUT_TOKENS=7500
+
+MODEL="gemini-2.5-pro"
+MAX_OUTPUT_TOKENS=1024
 VERBOSITY="low"
 REASONING_EFFORT="medium"
 LIMIT=100
@@ -63,10 +65,18 @@ A: No, but AI was thematically featured. At Paris Fashion Week 2024, Balenciaga'
 }
 
 
-# API_KEY = os.getenv("OPENAI_API_KEY","").strip().strip('"').strip("'")
+# API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 if not API_KEY:
-    raise SystemExit("OPENAI_API_KEY not set. Either set it or replace API_KEY with your key string.")
-client = OpenAI(api_key=API_KEY)
+    raise SystemExit("GEMINI_API_KEY not set. Either set it or replace API_KEY with your key string.")
+client = genai.Client(api_key=API_KEY)
+
+grounding_tool = types.Tool(google_search=types.GoogleSearch())
+GEN_CONFIG = types.GenerateContentConfig(
+    tools=[grounding_tool],
+    max_output_tokens=MAX_OUTPUT_TOKENS,
+    temperature=0.0,
+)
+
 
 def load_questions(p): 
     with open(p,"r",encoding="utf-8") as f: 
@@ -86,28 +96,19 @@ def make_prompt(q,style,dom):
     icl=ICL_BLOCKS[dom]
     return f"{base}Exemplars for {dom}:\n{icl}\nNow answer the target question.\nQuestion: {q}"
 
-def ask_gpt5(prompt):
-    r = client.responses.create(
-        model=MODEL,
-        input=prompt,
-        tools=[{"type":"web_search"}],
-        max_output_tokens=MAX_OUTPUT_TOKENS,
-        reasoning={"effort":REASONING_EFFORT}
-    )
-
-    txt = (getattr(r, "output_text", "") or "").strip()
-    if txt:
-        return txt
-    parts=[]
-    for item in getattr(r, "output", []) or []:
-        for c in getattr(item, "content", []) or []:
-            if getattr(c, "type", None) in ("output_text","text"):
-                t = getattr(c, "text", "")
-                if t: parts.append(t)
-    txt = "\n".join(parts).strip()
-    if not txt:
-        raise RuntimeError("Empty API text. Dump:\n" + r.model_dump_json(indent=2))
-    return txt
+def ask_gemini(prompt):
+    for attempt in range(4):
+        try:
+            r = client.models.generate_content(
+                model=MODEL,
+                contents=prompt,
+                config=GEN_CONFIG,
+            )
+            return (getattr(r, "text", "") or "").strip()
+        except errors.ServerError as e:
+            if attempt == 3:
+                return f"ERROR: {e}"
+            time.sleep(2 + attempt)
 
 def extract_urls(text):
     urls=re.findall(r'https?://\S+',text)
@@ -119,15 +120,15 @@ def extract_urls(text):
     return "; ".join(out)
 
 def main():
-    qs=load_questions("questions.txt")
+    qs=load_questions("questions_test.txt")
     styles=["direct","precise","verification","icl"]
-    with open("gpt5_responses.csv","w",newline="",encoding="utf-8") as f:
+    with open("gemini_responses.csv","w",newline="",encoding="utf-8") as f:
         w=csv.writer(f); w.writerow(["question id","domain","question","prompt_type","response","sources"])
         for i,q in enumerate(qs):
             dom=domain_for_index(i)
             for s in styles:
                 prompt=make_prompt(q,s,dom)
-                ans=ask_gpt5(prompt)
+                ans=ask_gemini(prompt)
                 w.writerow([i,dom,q,s,ans,extract_urls(ans)])
 
 if __name__=="__main__":

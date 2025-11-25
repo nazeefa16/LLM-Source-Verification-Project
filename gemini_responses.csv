@@ -1,0 +1,51 @@
+question id,domain,question,prompt_type,response,sources
+0,Medicine,What variables and cutoffs are used in the Alvarado score for suspected appendicitis?,direct,"The Alvarado score is a clinical tool used to help diagnose acute appendicitis. It assigns points based on the patient's symptoms, physical examination findings, and laboratory results.
+
+The variables and their corresponding point values are:
+*   **Symptoms:** Migratory right lower quadrant pain (1 point), anorexia (1 point), and nausea/vomiting (1 point).
+*   **Signs:** Tenderness in the right lower quadrant (2 points), rebound tenderness (1 point), and fever greater than 37.3°C (1 point).
+*   **Laboratory Values:** Leukocytosis (white blood cell count > 10,000/mm³) (2 points) and a shift to the left of neutrophils (1 point).
+
+The total score helps stratify patients by their likelihood of having appendicitis:
+*   **Score of 0-3:** Low probability; appendicitis is unlikely.
+*   **Score of 4-6:** Intermediate probability; further imaging like a CT scan is often recommended.
+*   **Score of 7-10:** High probability; a surgical consultation is typically warranted.
+
+A score of 5 or 6 is considered compatible with a diagnosis of appendicitis, while a score of 7 or 8 indicates a probable case, and a score of 9 or 10 suggests a very probable case of acute appendicitis.
+
+Sources:
+*   Dr.Oracle. ""How is the Alvarado score interpreted in the diagnosis of acute appendicitis?"" https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu0dX-csyPCws2Ss7Hcx7drK-2-n5vJZJG5BuRjkUlPsG5blcLx1MdrHgAXCDN9ookcAOdiPdvUf1Vq1cY1XXyoxEHYkPp_sd3s2ctz6e1j9ouYyl7R2TFTLI9SUnMOVK_FuSmSXEgWtC_VBPzJcNn-8HgP4ixz8DsR0L8wWO42vakIncSOHftfxKA7ebx9f7YZvucrk-ZQLg=
+*   Wikipedia. ""Alvarado score."" https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDqmYZ1ZufXtTE_X6UFwihLi8S32wWim0Gv7b9cb8KNiDUQBo43Mx325_R0Jw2OoND8z1IwWHE8dXiuucu05JqfSo7HlTaA-phLjmq7nXbAAYUa3CJksSagNLXsJImk4oaY-fVXWaD
+*   Medscape Reference. ""Alvarado Score for Acute Appendicitis."" https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET5al1hZ90fA9cpj7Tn0DvdRmc-VXi-f3NM6Ql-GGdRbqMThvygsVoCwt27sQ8Sbcjd2eN70uQKs-yJfpf8yjL43lQ_Fv35V0IRjLxKVfq6jaqpeL4UglBQZs_8LvlFT77vc8YVSkXIX4rOQUNWfz0EZ6TMdmSjmF58iMm54GQ2bOj9KeHYel1Xagc49Zz
+*   LITFL. ""Alvarado score."" https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbPqbmcw_gzPd_TzT46qyh-xHdEB9IdPnwocpvEwJvydFW1YlbACEH_s6tLMx8cwwuLAUk9jKpuAg6TiSNPpo",https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu0dX-csyPCws2Ss7Hcx7drK-2-n5vJZJG5BuRjkUlPsG5blcLx1MdrHgAXCDN9ookcAOdiPdvUf1Vq1cY1XXyoxEHYkPp_sd3s2ctz6e1j9ouYyl7R2TFTLI9SUnMOVK_FuSmSXEgWtC_VBPzJcNn-8HgP4ixz8DsR0L8wWO42vakIncSOHftfxKA7ebx9f7YZvucrk-ZQLg=; https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDqmYZ1ZufXtTE_X6UFwihLi8S32wWim0Gv7b9cb8KNiDUQBo43Mx325_R0Jw2OoND8z1IwWHE8dXiuucu05JqfSo7HlTaA-phLjmq7nXbAAYUa3CJksSagNLXsJImk4oaY-fVXWaD; https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET5al1hZ90fA9cpj7Tn0DvdRmc-VXi-f3NM6Ql-GGdRbqMThvygsVoCwt27sQ8Sbcjd2eN70uQKs-yJfpf8yjL43lQ_Fv35V0IRjLxKVfq6jaqpeL4UglBQZs_8LvlFT77vc8YVSkXIX4rOQUNWfz0EZ6TMdmSjmF58iMm54GQ2bOj9KeHYel1Xagc49Zz; https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbPqbmcw_gzPd_TzT46qyh-xHdEB9IdPnwocpvEwJvydFW1YlbACEH_s6tLMx8cwwuLAUk9jKpuAg6TiSNPpo
+0,Medicine,What variables and cutoffs are used in the Alvarado score for suspected appendicitis?,precise,"The Alvarado score is a 10-point clinical tool used to help diagnose acute appendicitis. The score is calculated using a combination of symptoms, signs, and laboratory findings, often remembered by the mnemonic MANTRELS.
+
+The variables and their point values are:
+*   **M**igration of pain to the right lower quadrant (1 point)
+*   **A**norexia (loss of appetite) (1 point)
+*   **N**ausea or vomiting (1 point)
+*   **T**enderness in the right lower quadrant (2 points)
+*   **R**ebound tenderness (1 point)
+*   **E**levated temperature >37.3°C (99.1°F) (1 point)
+*   **L**eukocytosis (white blood cell count >10,000/mm³) (2 points)
+*   **S**hift to the left of neutrophils (1 point)
+
+The total score helps stratify patients by risk. A score of 0-3 suggests appendicitis is unlikely. A score of 4-6 is considered equivocal, and imaging is often recommended. A score of 7 or higher indicates a high probability of appendicitis, and a surgical consultation is typically advised.
+
+***
+Sources:
+*   **Dr.Oracle.** (2025, August 22). *How is the Alvarado score interpreted in the diagnosis of acute appendicitis?*
+*   **Medscape.** *Alvarado Score for Acute Appendicitis.*
+*   **Wikipedia.** *Alvarado score.*",
+0,Medicine,What variables and cutoffs are used in the Alvarado score for suspected appendicitis?,verification,"The Alvarado score is a 10-point clinical tool used to help diagnose acute appendicitis. The score is calculated based on eight variables related to symptoms, physical examination findings, and laboratory results.
+
+The variables and their point values are:
+*   **Symptoms:** Migratory right lower quadrant pain (1 point), anorexia (loss of appetite) (1 point), and nausea or vomiting (1 point).
+*   **Signs:** Tenderness in the right lower quadrant (2 points), rebound tenderness (1 point), and fever greater than 37.3°C or 99.1°F (1 point).
+*   **Laboratory findings:** Leukocytosis (white blood cell count > 10,000 cells/µL) (2 points) and a shift to the left of neutrophils (1 point).
+
+The total score helps stratify the risk of appendicitis. A score of 0-3 suggests appendicitis is unlikely. A score of 4-6 is considered equivocal, and further imaging is often recommended. A score of 7 or higher indicates a high probability of appendicitis, and a surgical consultation is typically warranted.
+
+***
+Sources:
+This answer was compiled using information from reputable medical resources that explain the Alvarado scoring system.",
