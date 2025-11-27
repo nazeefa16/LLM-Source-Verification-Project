@@ -120,7 +120,7 @@ def extract_urls(text):
     return "; ".join(out)
 
 def main():
-    qs=load_questions("questions_test.txt")
+    qs=load_questions("questions.txt")
     styles=["direct","precise","verification","icl"]
     with open("gemini_responses.csv","w",newline="",encoding="utf-8") as f:
         w=csv.writer(f); w.writerow(["question id","domain","question","prompt_type","response","sources"])
