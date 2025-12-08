@@ -7,10 +7,10 @@ MODEL="gemini-2.5-pro"
 MAX_OUTPUT_TOKENS=1024
 VERBOSITY="low"
 REASONING_EFFORT="medium"
-LIMIT=100
+LIMIT=50
 
 DOMAINS = ["Medicine","Law","Tech","Sports","Fashion"]
-QUESTIONS_PER_DOMAIN = 20
+QUESTIONS_PER_DOMAIN = 10
 
 TEMPLATES={
     "direct":"Answer the question.",
@@ -66,6 +66,7 @@ A: No, but AI was thematically featured. At Paris Fashion Week 2024, Balenciaga'
 
 
 # API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
+API_KEY = "AIzaSyDAGPRUpVvkRSeTPpesrO4QPCHe_bsRTw4"
 if not API_KEY:
     raise SystemExit("GEMINI_API_KEY not set. Either set it or replace API_KEY with your key string.")
 client = genai.Client(api_key=API_KEY)
@@ -121,8 +122,9 @@ def extract_urls(text):
 
 def main():
     qs=load_questions("questions.txt")
-    styles=["direct","precise","verification","icl"]
-    with open("gemini_responses.csv","w",newline="",encoding="utf-8") as f:
+    #styles=["direct","precise","verification","icl"]
+    styles=["icl"]
+    with open("gemini_responses_icl.csv","w",newline="",encoding="utf-8") as f:
         w=csv.writer(f); w.writerow(["question id","domain","question","prompt_type","response","sources"])
         for i,q in enumerate(qs):
             dom=domain_for_index(i)
