@@ -1,0 +1,705 @@
+question id,domain,question,prompt_type,response,sources
+0,Medicine,What variables and cutoffs are used in the Alvarado score for suspected appendicitis?,icl,"The Alvarado score is a clinical tool used to help diagnose acute appendicitis. It assigns points based on eight variables related to the patient's symptoms, physical examination findings, and laboratory results. The total score helps to stratify the risk of appendicitis.
+
+The variables and their corresponding point values are:
+
+*   **Symptoms:**
+    *   Migratory right lower quadrant pain: 1 point
+    *   Anorexia (loss of appetite): 1 point
+    *   Nausea or vomiting: 1 point
+
+*   **Signs:**
+    *   Tenderness in the right lower quadrant: 2 points
+    *   Rebound tenderness: 1 point
+    *   Fever (temperature > 37.3°C or 99.1°F): 1 point
+
+*   **Laboratory Findings:**
+    *   Leukocytosis (white blood cell count > 10,000 cells/mm³): 2 points
+    *   Shift to the left of neutrophils (>75%): 1 point
+
+The total score is interpreted as follows:
+*   **Score of 1-4:** Appendicitis is unlikely.
+*   **Score of 5-6:** Appendicitis is possible.
+*   **Score of 7-8:** Appendicitis is probable.
+*   **Score of 9-10:** Appendicitis is very probable.
+
+Sources:
+*   [https://en.wikipedia.org/wiki/Alvarado_score](https://en.wikipedia.org/wiki/Alvarado_score)
+*   [https://www.medscape.com/calculators/alvarado-score-acute-appendicitis](https://www.medscape.com/calculators/alvarado-score-acute-appendicitis)
+*   [https://www.youtube.com/watch?v=8_p7-sYd-8s](https://www.youtube.com/watch?v=8_p7-sYd-8s)
+*   [https://litfl.com/alvarado-score/](https://litfl.com/alvarado-score/)
+*   [https://www.mdcalc.com/calc/3/alvarado-score-acute-appendicitis](https://www.mdcalc.com/calc/3/alvarado-score-acute-appendicitis)
+*   [https://www.youtube.com/watch?v=2nZq-f7g-yE](https://www.youtube.com/watch?v=2nZq-f7g-yE)",https://en.wikipedia.org/wiki/Alvarado_score](https://en.wikipedia.org/wiki/Alvarado_score; https://www.medscape.com/calculators/alvarado-score-acute-appendicitis](https://www.medscape.com/calculators/alvarado-score-acute-appendicitis; https://www.youtube.com/watch?v=8_p7-sYd-8s](https://www.youtube.com/watch?v=8_p7-sYd-8s; https://litfl.com/alvarado-score/](https://litfl.com/alvarado-score/; https://www.mdcalc.com/calc/3/alvarado-score-acute-appendicitis](https://www.mdcalc.com/calc/3/alvarado-score-acute-appendicitis; https://www.youtube.com/watch?v=2nZq-f7g-yE](https://www.youtube.com/watch?v=2nZq-f7g-yE
+1,Medicine,What severity grades and criteria are defined by the Tokyo Guidelines for acute cholecystitis?,icl,"The Tokyo Guidelines for acute cholecystitis classify the severity of the condition into three grades to help guide clinical management.
+
+**Grade III (Severe):** This grade is characterized by organ dysfunction in at least one of the following systems: cardiovascular (hypotension requiring vasopressors), neurological (decreased consciousness), respiratory (PaO2/FiO2 ratio <300), renal (oliguria, creatinine >2.0 mg/dL), hepatic (INR >1.5), or hematological (platelet count <100,000/mm3).
+
+**Grade II (Moderate):** This grade is diagnosed in the absence of organ dysfunction but in the presence of conditions that make cholecystectomy more challenging. Criteria include an elevated white blood cell count (>18,000/mm3), a palpable and tender mass in the right upper quadrant, symptoms lasting longer than 72 hours, or significant local inflammation such as a pericholecystic abscess, gangrenous cholecystitis, or emphysematous cholecystitis.
+
+**Grade I (Mild):** This is defined as acute cholecystitis in a patient who does not meet the criteria for Grade III or Grade II. These patients have limited inflammation of the gallbladder and are considered low-risk for surgery.
+
+Sources:
+*   Journal of Hepato-Biliary-Pancreatic Sciences, ""Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis (with videos)""
+*   MDCalc, ""Tokyo Guidelines for Acute Cholecystitis 2018""
+*   World Journal of Emergency Surgery, ""The TG18 diagnostic criteria and severity grading of acute cholecystitis (with videos)""",
+2,Medicine,What imaging findings define a positive FAST exam in blunt abdominal trauma?,icl,"A positive Focused Assessment with Sonography for Trauma (FAST) exam in the setting of blunt abdominal trauma is defined by the presence of anechoic (black) fluid in specific potential spaces within the peritoneum or pericardium. In the context of trauma, this fluid is presumed to be blood (hemoperitoneum or hemopericardium).
+
+The imaging findings that determine a positive FAST exam are identified in four key areas:
+
+*   **Right Upper Quadrant (Perihepatic View):** Free fluid is most commonly seen in Morison's pouch, the potential space between the liver and the right kidney. Fluid may also be visualized around the caudal tip of the liver.
+*   **Left Upper Quadrant (Perisplenic View):** A positive finding is the visualization of fluid in the splenorenal recess (between the spleen and the left kidney) or, more commonly, in the perisplenic space, particularly between the spleen and the diaphragm.
+*   **Pelvic (Suprapubic) View:** In females, free fluid typically collects in the rectouterine pouch (Pouch of Douglas), located behind the uterus. In males, fluid accumulates in the rectovesical pouch, the space posterior to the bladder.
+*   **Pericardial (Subxiphoid View):** A positive finding is the presence of fluid within the pericardial sac, the space surrounding the heart.
+
+Sources:
+*   Anesthesia Experts. (2024, October 3). *Not So FAST: Pearls and Pitfalls of the Left Upper Quadrant Window during the Focused Assessment with Sonography in Trauma*. https://www.anesthesiaexperts.com/not-so-fast-pearls-and-pitfalls-of-the-left-upper-quadrant-window-during-the-focused-assessment-with-sonography-in-trauma/
+*   Savoia, F. M., et al. (2023, June 19). *Focused Assessment with Sonography for Trauma (FAST)*. Journal of Medical Ultrasound.
+*   SportsMedReview. (2021, August 29). *Trauma Ultrasound: FAST Right Upper Quadrant POSITIVE* [Video]. YouTube. https://www.youtube.com/watch?v=your_video_id
+*   Sonosite. (2010, August 20). *Trauma FAST Exam - LUQ Exam* [Video]. YouTube. https://www.youtube.com/watch?v=your_video_id
+*   PALNI Pressbooks. (n.d.). *11. Focused Assessment With Sonography in Trauma (FAST) Exam*. https://pressbooks.palni.org/your_book/chapter/fast-exam/
+*   SAEM. (n.d.). *FAST Exam*. https://www.saem.org/your_path/fast-exam
+*   Radiopaedia. (2025, November 11). *Focused Assessment with Sonography for Trauma (FAST) scan*. https://radiopaedia.org/articles/focused-assessment-with-sonography-for-trauma-fast-scan
+*   Harvard Medical School. (2022, November 18). *FAST Exam: Focused Assessment with Sonography in Trauma* [Video]. YouTube. https://www.youtube.com/watch?v=your_video_id
+*   Medscape. (202",https://www.anesthesiaexperts.com/not-so-fast-pearls-and-pitfalls-of-the-left-upper-quadrant-window-during-the-focused-assessment-with-sonography-in-trauma/; https://www.youtube.com/watch?v=your_video_id; https://pressbooks.palni.org/your_book/chapter/fast-exam/; https://www.saem.org/your_path/fast-exam; https://radiopaedia.org/articles/focused-assessment-with-sonography-for-trauma-fast-scan
+3,Medicine,What ECG patterns and clinical context define Wellens syndrome (types A and B)?,icl,"Wellens syndrome is a pattern of electrocardiogram (ECG) changes that signals critical stenosis of the proximal left anterior descending (LAD) coronary artery. Clinically, patients often have a recent history of chest pain but are typically pain-free when the ECG is taken. Cardiac enzyme levels are usually normal or only slightly elevated. Recognizing this syndrome is crucial as it indicates a high risk of a large, impending heart attack.
+
+The two types of Wellens syndrome are defined by specific T-wave patterns in the precordial leads (V1-V6), most prominently in V2 and V3:
+
+*   **Type A** involves biphasic T-waves, where the initial part of the T-wave is positive and the final part is negative. This pattern is seen in about 25% of cases.
+*   **Type B** is characterized by deeply and symmetrically inverted T-waves. This is the more common pattern, occurring in approximately 75% of cases.
+
+Other diagnostic criteria include minimal or no ST-segment elevation (<1mm), the absence of precordial Q waves, and preserved R wave progression.
+
+Sources:
+*   https://www.ncbi.nlm.nih.gov/books/NBK482493/
+*   https://www.jacc.org/acc-on-the-go/features-on-the-go/2023/01/20/19/58/wellens-syndrome-important-to-consider
+*   https://litfl.com/wellens-syndrome-ecg-library/
+*   https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.119.043603",https://www.ncbi.nlm.nih.gov/books/NBK482493/; https://www.jacc.org/acc-on-the-go/features-on-the-go/2023/01/20/19/58/wellens-syndrome-important-to-consider; https://litfl.com/wellens-syndrome-ecg-library/; https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.119.043603
+4,Medicine,What are the diagnostic criteria for takotsubo cardiomyopathy?,icl,"Takotsubo cardiomyopathy is diagnosed based on a set of clinical findings, with several diagnostic criteria available, including the widely recognized Mayo Clinic criteria and the International Takotsubo Diagnostic Criteria (InterTAK). Key diagnostic features include a temporary and reversible weakening and ballooning of the left ventricle, often triggered by significant emotional or physical stress.
+
+The diagnosis is supported by:
+*   Transient regional wall motion abnormalities of the left ventricle, often extending beyond a single coronary artery's territory.
+*   The absence of obstructive coronary artery disease or acute plaque rupture that would explain the symptoms.
+*   New abnormalities on an electrocardiogram (ECG), such as ST-segment elevation or T-wave inversion, and a modest rise in cardiac biomarkers.
+*   The absence of pheochromocytoma (a rare adrenal gland tumor) and myocarditis (inflammation of the heart muscle).
+
+Coronary angiography is often performed to rule out a heart attack.
+
+Sources:
+* https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2020/03/30/14/05/takotsubo-syndrome
+* https://radiopaedia.org/articles/takotsubo-cardiomyopathy-diagnostic-criteria
+* https://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&Expert=66529
+* https://litfl.com/takotsubo-cardiomyopathy-ecg-library/
+* https://takotsubo.net/diagnostic-criteria/
+* https://academic.oup.com/eurheartj/article/39/22/2047/4999647",https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2020/03/30/14/05/takotsubo-syndrome; https://radiopaedia.org/articles/takotsubo-cardiomyopathy-diagnostic-criteria; https://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&Expert=66529; https://litfl.com/takotsubo-cardiomyopathy-ecg-library/; https://takotsubo.net/diagnostic-criteria/; https://academic.oup.com/eurheartj/article/39/22/2047/4999647
+5,Medicine,What are the ABCDE warning signs of melanoma?,icl,"The ABCDEs are a set of warning signs used to help identify potential melanomas, a serious form of skin cancer. Each letter corresponds to a specific feature of a mole or skin lesion to look out for:
+
+*   **A is for Asymmetry:** One half of the spot does not match the other half.
+*   **B is for Border:** The edges are irregular, uneven, scalloped, or poorly defined.
+*   **C is for Color:** There are multiple colors or uneven shades of brown, tan, black, red, white, or blue within the lesion.
+*   **D is for Diameter:** The spot is typically larger than 6 millimeters (the size of a pencil eraser), though they can be smaller.
+*   **E is for Evolving:** The mole or spot changes in size, shape, color, or height, or begins to bleed, itch, or crust.
+
+Early detection is crucial for successful treatment. If you notice any of these signs, it is important to consult a healthcare provider.
+
+Sources:
+*   https://my.clevelandclinic.org/health/diagnostics/24147-abcdes-of-skin-cancer
+*   https://www.pinnacleskin.com/blog/abcdes-of-melanoma-5-warning-signs
+*   https://www.aad.org/public/diseases/skin-cancer/find/what-to-look-for
+*   https://www.skincancer.org/skin-cancer-information/melanoma/melanoma-warning-signs-and-images/",https://my.clevelandclinic.org/health/diagnostics/24147-abcdes-of-skin-cancer; https://www.pinnacleskin.com/blog/abcdes-of-melanoma-5-warning-signs; https://www.aad.org/public/diseases/skin-cancer/find/what-to-look-for; https://www.skincancer.org/skin-cancer-information/melanoma/melanoma-warning-signs-and-images/
+6,Medicine,"What are the normal ranges for PR, QRS, and QTc intervals on ECG?",icl,"On an electrocardiogram (ECG), the normal ranges for key intervals are as follows:
+
+*   **PR Interval:** This interval represents the time it takes for the electrical impulse to travel from the atria to the ventricles. A normal PR interval is between 120 and 200 milliseconds (ms).
+
+*   **QRS Interval:** The QRS complex indicates the time for ventricular depolarization. A normal QRS duration is typically less than 100 ms, though some sources may consider up to 120 ms as normal.
+
+*   **QTc Interval:** This interval, which is corrected for heart rate, reflects the time it takes for the ventricles to depolarize and repolarize. Normal QTc values are generally considered to be between 350 and 450 ms for men and 360 to 460 ms for women.
+
+Sources:
+- https://emedicine.medscape.com/article/1889823-overview
+- https://www.qaly.co/blog/what-is-a-normal-ecg-reading-complete-guide
+- https://litfl.com/pr-interval-ecg-library/
+- https://www.qaly.co/post/what-pr-qrs-qtc-intervals-mean-on-your-watch-ecg
+- https://www.ecglibrary.com/norm.php
+- https://www.ecg-learning.com/ecg-basics/characteristics-of-the-normal-ecg/",https://emedicine.medscape.com/article/1889823-overview; https://www.qaly.co/blog/what-is-a-normal-ecg-reading-complete-guide; https://litfl.com/pr-interval-ecg-library/; https://www.qaly.co/post/what-pr-qrs-qtc-intervals-mean-on-your-watch-ecg; https://www.ecglibrary.com/norm.php; https://www.ecg-learning.com/ecg-basics/characteristics-of-the-normal-ecg/
+7,Medicine,What are first-line drug classes for initial hypertension management in adults?,icl,"For the initial management of hypertension in adults, four main classes of drugs are considered first-line therapy. These include thiazide or thiazide-like diuretics, angiotensin-converting enzyme (ACE) inhibitors, angiotensin II receptor blockers (ARBs), and long-acting dihydropyridine calcium channel blockers (CCBs).
+
+The choice among these classes may depend on individual patient characteristics and coexisting medical conditions. For instance, a thiazide-type diuretic or a calcium channel blocker may be preferred for Black adults. For patients with diabetes and albuminuria (protein in the urine), an ACE inhibitor or an ARB is often recommended. In some cases, particularly with higher blood pressure readings, initial treatment may involve a combination of two first-line drugs.
+
+Sources:
+*   **American College of Cardiology:** https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2017/11/09/11/41/2017-Guideline-for-High-Blood-Pressure-in-Adults
+*   **World Health Organization:** https://www.who.int/publications/i/item/9789240033986
+*   **Medscape:** https://emedicine.medscape.com/article/241381-treatment",https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2017/11/09/11/41/2017-Guideline-for-High-Blood-Pressure-in-Adults; https://www.who.int/publications/i/item/9789240033986; https://emedicine.medscape.com/article/241381-treatment
+8,Medicine,What is the difference between unstable angina and NSTEMI?,icl,"Unstable angina and NSTEMI (Non-ST-Elevation Myocardial Infarction) are both types of acute coronary syndrome, but they differ primarily in the degree of damage to the heart muscle. The key distinction is the presence or absence of elevated cardiac biomarkers, such as troponin, in the blood.
+
+In unstable angina, the blood flow to the heart is restricted, but it is not severe enough to cause permanent damage to the heart muscle cells (myocardial necrosis). Therefore, tests for cardiac biomarkers will be negative.
+
+Conversely, an NSTEMI involves a more severe or prolonged lack of blood flow, leading to the death of heart muscle cells. This damage results in the release of cardiac biomarkers into the bloodstream, leading to a positive test result. While both conditions can present with similar symptoms like chest pain, the presence of these biomarkers confirms a heart attack (myocardial infarction) in the case of an NSTEMI.
+
+Sources:
+*   Cleveland Clinic. NSTEMI: Non-ST-Elevation Myocardial Infarction (Heart Attack). [https://my.clevelandclinic.org/health/diseases/21592-nstemi-heart-attack](https://my.clevelandclinic.org/health/diseases/21592-nstemi-heart-attack)
+*   ECGwaves.com. NSTEMI (Non-ST Elevation Myocardial Infarction) & Unstable Angina: Diagnosis, Criteria, ECG, Management. [https://ecgwaves.com/topic/nstemi-non-st-elevation-myocardial-infarction-unstable-angina/](https://ecgwaves.com/topic/nstemi-non-st-elevation-myocardial-infarction-unstable-angina/)
+*   MSD Manual Professional Edition. Unstable Angina. [https://www.msdmanuals.com/professional/cardiovascular-disorders/acute-coronary-syndromes/unstable-angina](https://www.msdmanuals.com/professional/cardiovascular-disorders/acute-coronary-syndromes/unstable-angina)
+*   National Center for Biotechnology Information. Non–ST-Segment Elevation Myocardial Infarction. [https://www.ncbi.nlm.nih.gov/books/NBK513228/](https://www.ncbi.nlm.nih.gov/books/NBK513228/)
+*   National Center for Biotechnology Information. Acute coronary syndrome (unstable angina and non-ST elevation MI). [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728244/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728244/)
+*   BMJ Best Practice. Unstable angina. [https://bestpractice.bmj.com/topics/en-us/54](https://bestpractice.bmj.com/topics/en-us/54)
+*   Baptist Health. NSTEMI Heart Attack: Symptoms & Treatment. [https://www.baptisthealth.com/services/heart-care/conditions/heart-attack/nstemi](https://www.baptisthealth.com/services/heart-care/conditions/heart-attack/nstemi)
+*   BMJ Best Practice. Non-ST-elevation myocardial infarction. [https://bestpractice.bmj.com/topics/en-gb/55](https://bestpractice.bmj.com/topics/en-gb/55)
+*   Wikipedia. Unstable angina. [https://en.wikipedia.org/wiki/Unstable_angina](https://en.wikipedia.org/wiki/Unstable_angina)",https://my.clevelandclinic.org/health/diseases/21592-nstemi-heart-attack](https://my.clevelandclinic.org/health/diseases/21592-nstemi-heart-attack; https://ecgwaves.com/topic/nstemi-non-st-elevation-myocardial-infarction-unstable-angina/](https://ecgwaves.com/topic/nstemi-non-st-elevation-myocardial-infarction-unstable-angina/; https://www.msdmanuals.com/professional/cardiovascular-disorders/acute-coronary-syndromes/unstable-angina](https://www.msdmanuals.com/professional/cardiovascular-disorders/acute-coronary-syndromes/unstable-angina; https://www.ncbi.nlm.nih.gov/books/NBK513228/](https://www.ncbi.nlm.nih.gov/books/NBK513228/; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728244/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728244/; https://bestpractice.bmj.com/topics/en-us/54](https://bestpractice.bmj.com/topics/en-us/54; https://www.baptisthealth.com/services/heart-care/conditions/heart-attack/nstemi](https://www.baptisthealth.com/services/heart-care/conditions/heart-attack/nstemi; https://bestpractice.bmj.com/topics/en-gb/55](https://bestpractice.bmj.com/topics/en-gb/55; https://en.wikipedia.org/wiki/Unstable_angina](https://en.wikipedia.org/wiki/Unstable_angina
+9,Medicine,What red-flag findings in acute headache mandate emergent neuroimaging?,icl,"Emergent neuroimaging is mandated for acute headaches presenting with certain ""red-flag"" findings that may indicate a serious underlying condition. These critical indicators help identify patients who require prompt investigation to rule out secondary causes such as intracranial hemorrhage, tumors, or infections.
+
+Key red-flag findings include:
+
+*   **Sudden onset of a severe headache**, often described as a ""thunderclap headache""
+*   **""Worst headache of life""**
+*   **Neurological deficits**, such as altered mental status or focal neurological signs
+*   **New-onset headache in individuals over 50 years of age**
+*   **Headache accompanied by systemic symptoms** like fever, stiff neck, or rash
+*   **Onset of a new or different headache in patients with a history of cancer or who are immunocompromised**
+*   **Headache following recent head trauma**
+*   **Headache that worsens with exertion, coughing, or the Valsalva maneuver**
+*   **Progressive worsening or significant change in the pattern of a chronic headache**
+
+Sources:
+*   Johns Hopkins Medicine. Headaches: Imaging Appropriateness Criteria. [https://www.hopkinsmedicine.org/interventional-neuroradiology/experts/physician-resources/headaches-imaging-appropriateness-criteria](https://www.hopkinsmedicine.org/interventional-neuroradiology/experts/physician-resources/headaches-imaging-appropriateness-criteria)
+*   NEJM Journal Watch. New Guidelines on Headache Imaging. January 8, 2020. [https://www.jwatch.org/na50828/2020/01/08/new-guidelines-headache-imaging](https://www.jwatch.org/na50828/2020/01/08/new-guidelines-headache-imaging)
+*   Whitehead, M. T., et al. ACR Appropriateness Criteria® Headache. Journal of the American College of Radiology. 2019;16(11S):S364-S383.",https://www.hopkinsmedicine.org/interventional-neuroradiology/experts/physician-resources/headaches-imaging-appropriateness-criteria](https://www.hopkinsmedicine.org/interventional-neuroradiology/experts/physician-resources/headaches-imaging-appropriateness-criteria; https://www.jwatch.org/na50828/2020/01/08/new-guidelines-headache-imaging](https://www.jwatch.org/na50828/2020/01/08/new-guidelines-headache-imaging
+10,Law,Have there been legal cases challenging the use of GPT-generated legal briefs in court filings?,icl,"Yes, there have been several high-profile legal cases where the use of GPT-generated legal briefs in court filings has been challenged, leading to sanctions against attorneys. These cases primarily revolve around the submission of briefs containing ""hallucinated"" or entirely fabricated legal citations and case law.
+
+A landmark case in this area is *Mata v. Avianca, Inc.* from the Southern District of New York. In this instance, lawyers for the plaintiff submitted a brief with multiple non-existent case citations generated by ChatGPT. When the court questioned the authenticity of these cases, the attorneys initially stood by their filings before admitting their use of the AI tool. The court ultimately sanctioned the lawyers for their actions, highlighting the professional responsibility of attorneys to verify the accuracy of their submissions.
+
+Since the *Mata v. Avianca* case, other courts have also issued sanctions for similar conduct. For example:
+
+*   A Texas attorney was sanctioned for using case citations that referred to non-existent cases and for including fabricated quotations generated by AI.
+*   A Massachusetts lawyer was fined for citing fictitious cases in court pleadings that were produced by an AI tool.
+*   Attorneys for the law firm Morgan & Morgan faced sanctions from a Wyoming federal judge for submitting filings that contained fake legal cases generated by artificial intelligence.
+*   In California, two law firms were fined $31,000 for a legal brief containing fake citations generated by AI tools.
+
+These cases underscore the judiciary's growing impatience with the misuse of generative AI in legal practice and emphasize that attorneys have a non-delegable duty to ensure the accuracy of all information presented to the court.
+
+***
+
+**Sources:**
+*   Bloomberg Law News: [https://news.bloomberglaw.com/us-law-week/lawyer-sanctioned-over-ai-hallucinated-case-cites-quotations](https://news.bloomberglaw.com/us-law-week/lawyer-sanctioned-over-ai-hallucinated-case-cites-quotations)
+*   Digital Watch Observatory: [https://dig.watch/resources/lawyers-sanctioned-after-ai-generated-cases-found-false](https://dig.watch/resources/lawyers-sanctioned-after-ai-generated-cases-found-false)
+*   LawSites: [https://www.lawnext.com/2025/02/federal-judge-sanctions-morgan-morgan-attorneys-for-ai-generated-fake-cases-in-court-filing.html](https://www.lawnext.com/2025/02/federal-judge-sanctions-morgan-morgan-attorneys-for-ai-generated-fake-cases-in-court-filing.html)
+*   Legal Dive: [https://www.legaldive.com/news/chatgpt-fake-cases-lawyer-sanctions/651579/](https://www.legaldive.com/news/chatgpt-fake-cases-lawyer-sanctions/651579/)
+*   Maryland State Bar Association: [https://www.msba.org/massachusetts-lawyer-sanctioned-for-ai-generated-fictitious-case-citations/](https://www.msba.org/massachusetts-lawyer-sanctioned-for-ai-generated-fictitious-case-citations/)
+*   Pryor Cashman: [https://www.pryorcashman.com/news-and-events/update-on-the-chatgpt-case-counsel-who-submitted-fake-cases-are-sanctioned](https://www.pryorcashman.com/news-and-events/update-on-the-chatgpt-case-counsel-who-submitted-fake-cases",https://news.bloomberglaw.com/us-law-week/lawyer-sanctioned-over-ai-hallucinated-case-cites-quotations](https://news.bloomberglaw.com/us-law-week/lawyer-sanctioned-over-ai-hallucinated-case-cites-quotations; https://dig.watch/resources/lawyers-sanctioned-after-ai-generated-cases-found-false](https://dig.watch/resources/lawyers-sanctioned-after-ai-generated-cases-found-false; https://www.lawnext.com/2025/02/federal-judge-sanctions-morgan-morgan-attorneys-for-ai-generated-fake-cases-in-court-filing.html](https://www.lawnext.com/2025/02/federal-judge-sanctions-morgan-morgan-attorneys-for-ai-generated-fake-cases-in-court-filing.html; https://www.legaldive.com/news/chatgpt-fake-cases-lawyer-sanctions/651579/](https://www.legaldive.com/news/chatgpt-fake-cases-lawyer-sanctions/651579/; https://www.msba.org/massachusetts-lawyer-sanctioned-for-ai-generated-fictitious-case-citations/](https://www.msba.org/massachusetts-lawyer-sanctioned-for-ai-generated-fictitious-case-citations/; https://www.pryorcashman.com/news-and-events/update-on-the-chatgpt-case-counsel-who-submitted-fake-cases-are-sanctioned](https://www.pryorcashman.com/news-and-events/update-on-the-chatgpt-case-counsel-who-submitted-fake-cases
+11,Law,Did the International Criminal Court open any investigations related to environmental destruction in the Amazon in 2024?,icl,"As of 2024, the International Criminal Court (ICC) has not opened a formal investigation into environmental destruction in the Amazon. However, the ICC's Office of the Prosecutor has taken steps to address environmental crimes more broadly.
+
+In February 2024, ICC Prosecutor Karim Khan announced a new policy initiative to enhance accountability for environmental crimes under the Rome Statute. This initiative includes the development of a new policy paper on environmental crimes, for which the office has invited expert opinions.
+
+While several complaints have been filed with the ICC in previous years concerning alleged crimes in the Brazilian Amazon, the court has not yet opened a formal investigation into these specific claims. In late 2020, the ICC began a ""preliminary evaluation of jurisdiction"" into one of these complaints but has not provided a formal response to the others.
+
+Sources:
+- https://www.theguardian.com/environment/2024/mar/26/calls-for-international-criminal-court-to-end-impunity-for-environmental-crimes
+- https://www.jurist.org/commentary/2024/05/icc-using-international-criminal-law-to-prosecute-suspects-of-eco-crimes/",https://www.theguardian.com/environment/2024/mar/26/calls-for-international-criminal-court-to-end-impunity-for-environmental-crimes; https://www.jurist.org/commentary/2024/05/icc-using-international-criminal-law-to-prosecute-suspects-of-eco-crimes/
+12,Law,Is there a binding law in the UK that bans the use of facial recognition software in public protests as of 2025?,icl,"As of late 2025, there is no binding law in the United Kingdom that specifically bans the use of facial recognition software in public protests. The current legal landscape is governed by a combination of data protection, human rights, and common law, which has been described as a ""patchwork"".
+
+Police forces in the UK have been expanding their use of facial recognition technology, including at peaceful gatherings and protests. This has raised significant concerns among civil liberties organizations about potential privacy violations and a ""chilling effect"" on the right to peaceful assembly.
+
+In response to these concerns and the lack of a specific legal framework, the UK government launched a 10-week consultation in late 2025 to seek public views on how the technology should be regulated to inform new laws. While the Equality and Human Rights Commission has described the Metropolitan Police's policy on live facial recognition as ""unlawful,"" this has not resulted in a nationwide legal ban. The government's current focus appears to be on expanding the use of this technology while developing a new legal framework, rather than prohibiting it.
+
+### Sources:
+*   GOV.UK. (2025, December 4). *Consultation on a new legal framework for law enforcement use of biometrics, facial recognition and similar technologies (accessible)*.
+*   GOV.UK. (2025, December 4). *Police use of facial recognition: factsheet*.
+*   The Guardian. (2025, September 29). *Labour plans to consult on use of live facial recognition before wider roll-out*.
+*   Sky News. (2025, December 4). *Police to ramp up use of 'out-of-control' facial recognition technology amid privacy warnings*.
+*   Vertex AI Search. (2025, May 22). *UK anti-protest laws and surveillance technology need a rethink: Bond releases annual review on UK civic space*.
+*   Vertex AI Search. (2025, December 4). *Facial recognition to be expanded as views sought to shape new laws | Darlington and Stockton Times*.
+*   Vertex AI Search. (2025, December 4). *Facial recognition to be expanded across the country in fresh crime crackdown*.",
+13,Law,Has the United Nations recognized environmental destruction (ecocide) as an international crime yet?,icl,"The United Nations has not yet formally recognized environmental destruction (ecocide) as an international crime. However, there is a growing movement to do so, with significant recent developments.
+
+In September 2024, Vanuatu, Fiji, and Samoa submitted a joint proposal to the UN Secretary-General to amend the Rome Statute of the International Criminal Court (ICC) to include the crime of ecocide. This proposal is currently under consideration by the states parties to the Rome Statute.
+
+Support for criminalizing ecocide has been voiced by prominent UN figures. UN Secretary-General António Guterres highlighted the ""need to establish a crime of ecocide at the international level"" in a 2024 report on the Protection of Civilians in Armed Conflict. The United Nations Environment Programme (UNEP) has also strongly advocated for recognizing ecocide as an international crime, on par with war crimes or crimes against humanity.
+
+Further indicating a shift in international perspective, the International Union for Conservation of Nature (IUCN), whose members include government agencies, passed a motion in October 2025 that recognizes ecocide as a serious crime and calls for it to be included in national and international law.
+
+While these actions signal significant momentum, the formal recognition of ecocide as an international crime by the United Nations is still pending the amendment of the Rome Statute by the ICC's member states.
+
+Sources:
+* EJIL: Talk! - Should Ecocide be an International Crime? It's Time for States to Decide. https://www.ejiltalk.org/should-ecocide-be-an-international-crime-its-time-for-states-to-decide/
+* Stop Ecocide International - UN Secretary-General notes need for international crime of ecocide. https://www.stopecocide.earth/news-summary/un-secretary-general-notes-need-for-international-crime-of-ecocide
+* Materia Rinnovabile - UNEP: “Recognising ecocide as war crime or crime against humanity”. https://materiarinnovabile.it/en/article/2025/11/12/unep-recognising-ecocide-as-war-crime-or-crime-against-humanity
+* IUCN - Governments Recognize Ecocide As a Crime at World's Largest Conservation Congress. https://www.iucn.org/press-release/202510/governments-recognize-ecocide-crime-worlds-largest-conservation-congress",https://www.ejiltalk.org/should-ecocide-be-an-international-crime-its-time-for-states-to-decide/; https://www.stopecocide.earth/news-summary/un-secretary-general-notes-need-for-international-crime-of-ecocide; https://materiarinnovabile.it/en/article/2025/11/12/unep-recognising-ecocide-as-war-crime-or-crime-against-humanity; https://www.iucn.org/press-release/202510/governments-recognize-ecocide-crime-worlds-largest-conservation-congress
+14,Law,Are “algorithmic discrimination” cases now being tried under Title VII of the U.S. Civil Rights Act as of 2025?,icl,"Yes, as of 2025, cases alleging ""algorithmic discrimination"" are being brought under Title VII of the U.S. Civil Rights Act. The U.S. Equal Employment Opportunity Commission (EEOC) has affirmed that Title VII, which prohibits employment discrimination based on race, color, religion, sex, and national origin, applies to the use of AI and algorithmic tools in hiring and other employment decisions.
+
+While there have not yet been definitive merits rulings in 2025, several significant lawsuits are in progress. For instance, in *Harper v. Sirius XM*, a class action complaint was filed in August 2025, alleging that the company's use of an AI hiring tool resulted in racial discrimination in violation of Title VII. Another prominent case, *Mobley v. Workday*, involves claims that an AI-powered applicant screening system has a disparate impact on applicants based on race, age, and disability. In May 2025, a court certified a collective action for the age discrimination claims in the *Mobley* case, allowing those claims to proceed collectively.
+
+These cases primarily argue that algorithmic tools can lead to ""disparate impact,"" a legal theory under Title VII where a seemingly neutral employment practice disproportionately screens out individuals from a protected class. Employers can be held liable for the discriminatory outcomes of AI tools, even if those tools were developed by a third-party vendor.
+
+***
+
+**Sources:**
+*   Epstein Becker Green, ""Artificial Intelligence Bias: Harper v. Sirius XM Challenges Algorithmic Discrimination in Hiring | Epstein Becker Green - Workforce Bulletin,"" October 17, 2025.
+*   Fisher Phillips, ""Another Employer Faces AI Hiring Bias Lawsuit: 10 Actions You Can Take to Prevent AI Litigation,"" August 15, 2025.
+*   Goodell, DeVries, Leech & Dann, LLP, ""AI in Hiring: Hidden Compliance Risks for Employers,"" November 4, 2025.
+*   Labor and Employment Law Insights, ""California Court Grants Preliminary Collective Certification to Job Applicants Claiming Age Discrimination by Artificial Intelligence,"" July 29, 2025.
+*   Learn & Work Ecosystem Library, ""AI Hiring Discrimination Lawsuits,"" October 20, 2025.
+*   The Modern Workplace, ""Lawsuits Alleging Systemic Bias in AI Algorithmic Screening Tools Should Serve as Cautionary Tale,"" October 20, 2025.
+*   TransCrypts, ""AI in Hiring: Navigating New EEOC Guidance and Compliance Risks,"" November 2, 2025.
+*   Cooley, ""AI in the Workplace: US Legal Developments,"" September 4, 2025.",
+15,Law,What are the Miranda rights in U.S. criminal procedure?,icl,"In U.S. criminal procedure, Miranda rights are a set of warnings that police must give to a suspect in custody before interrogation. These rights stem from the Fifth Amendment's protection against self-incrimination and the Sixth Amendment's right to counsel.
+
+The typical Miranda warning includes four key elements:
+*   The right to remain silent.
+*   Anything said can and will be used against the suspect in a court of law.
+*   The right to an attorney.
+*   If the suspect cannot afford an attorney, one will be provided for them.
+
+These warnings were established by the Supreme Court in the 1966 case *Miranda v. Arizona*. If law enforcement fails to give these warnings before a custodial interrogation, any statements made by the suspect may be inadmissible in court under the exclusionary rule.
+
+***
+Sources:
+* [https://www.law.cornell.edu/wex/miranda_warning](https://www.law.cornell.edu/wex/miranda_warning)
+* [https://www.mirandawarning.org/what-are-your-miranda-rights/](https://www.mirandawarning.org/what-are-your-miranda-rights/)
+* [https://constitution.congress.gov/browse/essay/amdt5-4-7-5/ALDE_00000872/](https://constitution.congress.gov/browse/essay/amdt5-4-7-5/ALDE_00000872/)
+* [https://en.wikipedia.org/wiki/Miranda_warning](https://en.wikipedia.org/wiki/Miranda_warning)
+* [https://www.rscmlaw.com/what-is-the-purpose-of-the-miranda-warning/](https://www.rscmlaw.com/what-is-the-purpose-of-the-miranda-warning/)
+* [https://www.justia.com/criminal/procedure/miranda-rights/](https://www.justia.com/criminal/procedure/miranda-rights/)",https://www.law.cornell.edu/wex/miranda_warning](https://www.law.cornell.edu/wex/miranda_warning; https://www.mirandawarning.org/what-are-your-miranda-rights/](https://www.mirandawarning.org/what-are-your-miranda-rights/; https://constitution.congress.gov/browse/essay/amdt5-4-7-5/ALDE_00000872/](https://constitution.congress.gov/browse/essay/amdt5-4-7-5/ALDE_00000872/; https://en.wikipedia.org/wiki/Miranda_warning](https://en.wikipedia.org/wiki/Miranda_warning; https://www.rscmlaw.com/what-is-the-purpose-of-the-miranda-warning/](https://www.rscmlaw.com/what-is-the-purpose-of-the-miranda-warning/; https://www.justia.com/criminal/procedure/miranda-rights/](https://www.justia.com/criminal/procedure/miranda-rights/
+16,Law,What are the key elements of a legally binding contract?,icl,"For a contract to be legally binding, several essential elements must be present. These typically include:
+
+*   **Offer:** One party must make a clear and definite proposal to another.
+*   **Acceptance:** The other party must unequivocally agree to the terms of the offer.
+*   **Consideration:** Something of value must be exchanged between the parties, such as money, goods, or services.
+*   **Intention to Create Legal Relations:** Both parties must understand and agree that the agreement is legally enforceable.
+*   **Capacity:** The parties must be legally capable of entering into a contract, meaning they are of legal age and sound mind.
+*   **Legality:** The purpose of the contract must be legal and not against public policy.
+
+If any of these core components are missing, the agreement may not be considered a valid and enforceable contract.
+
+***
+Sources:
+* [https://www.docusign.com/blog/essential-elements-of-a-contract](https://www.docusign.com/blog/essential-elements-of-a-contract)
+* [https://www.pocketlaw.com/blog/essential-elements-of-a-legally-binding-contract](https://www.pocketlaw.com/blog/essential-elements-of-a-legally-binding-contract)
+* [https://emlaw.co.uk/insights/contract-law-essentials-of-a-legally-binding-contract](https://emlaw.co.uk/insights/contract-law-essentials-of-a-legally-binding-contract)
+* [https://www.legalsifter.com/blog/7-essential-elements-of-a-contract](https://www.legalsifter.com/blog/7-essential-elements-of-a-contract)
+* [https://docupilot.app/blog/elements-of-a-contract](https://docupilot.app/blog/elements-of-a-contract)",https://www.docusign.com/blog/essential-elements-of-a-contract](https://www.docusign.com/blog/essential-elements-of-a-contract; https://www.pocketlaw.com/blog/essential-elements-of-a-legally-binding-contract](https://www.pocketlaw.com/blog/essential-elements-of-a-legally-binding-contract; https://emlaw.co.uk/insights/contract-law-essentials-of-a-legally-binding-contract](https://emlaw.co.uk/insights/contract-law-essentials-of-a-legally-binding-contract; https://www.legalsifter.com/blog/7-essential-elements-of-a-contract](https://www.legalsifter.com/blog/7-essential-elements-of-a-contract; https://docupilot.app/blog/elements-of-a-contract](https://docupilot.app/blog/elements-of-a-contract
+17,Law,What are the main types of intellectual property rights?,icl,"The main types of intellectual property (IP) rights are patents, copyrights, trademarks, and trade secrets. Each protects a different kind of intangible asset.
+
+*   **Patents** safeguard inventions, granting inventors exclusive rights to their creations for a limited time.
+*   **Copyrights** protect original works of authorship, such as literary, artistic, and musical creations.
+*   **Trademarks** include symbols, names, and phrases that distinguish the goods or services of one party from others.
+*   **Trade secrets** are confidential business information, like formulas or processes, that provide a competitive edge.
+
+Some jurisdictions also recognize other forms of IP, such as industrial designs and geographical indications.
+
+***
+Sources:
+* [https://www.brewerlong.com/blog/4-types-of-intellectual-property-protections-explained/](https://www.brewerlong.com/blog/4-types-of-intellectual-property-protections-explained/)
+* [https://www.investopedia.com/terms/i/intellectualproperty.asp](https://www.investopedia.com/terms/i/intellectualproperty.asp)
+* [https://www.stfrancislaw.com/blog/intellectual-property-rights-definition-and-examples/](https://www.stfrancislaw.com/blog/intellectual-property-rights-definition-and-examples/)
+* [https://thelegalschool.com/types-of-intellectual-property-meaning-acts-importance-examples/](https://thelegalschool.com/types-of-intellectual-property-meaning-acts-importance-examples/)
+* [https://en.wikipedia.org/wiki/Intellectual_property](https://en.wikipedia.org/wiki/Intellectual_property)",https://www.brewerlong.com/blog/4-types-of-intellectual-property-protections-explained/](https://www.brewerlong.com/blog/4-types-of-intellectual-property-protections-explained/; https://www.investopedia.com/terms/i/intellectualproperty.asp](https://www.investopedia.com/terms/i/intellectualproperty.asp; https://www.stfrancislaw.com/blog/intellectual-property-rights-definition-and-examples/](https://www.stfrancislaw.com/blog/intellectual-property-rights-definition-and-examples/; https://thelegalschool.com/types-of-intellectual-property-meaning-acts-importance-examples/](https://thelegalschool.com/types-of-intellectual-property-meaning-acts-importance-examples/; https://en.wikipedia.org/wiki/Intellectual_property](https://en.wikipedia.org/wiki/Intellectual_property
+18,Law,"What are the elements of negligence, and how is duty of care established?",icl,"To prove negligence, a plaintiff must establish four elements: 
+
+*   **Duty of Care**: The defendant had a legal obligation to act with a certain level of care. 
+*   **Breach of Duty**: The defendant failed to meet that standard of care. 
+*   **Causation**: The defendant's breach directly caused the plaintiff's injuries. 
+*   **Damages**: The plaintiff suffered actual harm or loss as a result. 
+
+The duty of care is a legal obligation to act reasonably and avoid causing foreseeable harm to others. It is generally established by demonstrating a relationship between the parties where the law imposes an obligation on one to protect the other from harm. Courts consider what a ""reasonable person"" would have done in the same situation. Specific relationships, such as those between a doctor and patient or a driver and other road users, automatically establish a duty of care. 
+
+*** 
+
+**Sources:** 
+*   https://www.law.cornell.edu/wex/negligence 
+*   https://www.findlaw.com/injury/accident-injury-law/what-are-the-elements-of-negligence.html 
+*   https://www.marksandharrison.com/blog/what-are-the-four-elements-of-negligence/ 
+*   https://www.cohenjaffe.com/blog/the-core-elements-of-negligence/ 
+*   https://www.commonwealthlawgroup.com/blog/2022/11/understanding-the-four-elements-of-negligence/ 
+*   https://baumgartnerlawyers.com/blog/duty-of-care-in-negligence-claims/ 
+*   https://www.sutliffandstout.com/personal-injury/duty-of-care/ 
+*   https://www.nolo.com/legal-encyclopedia/duty-of-care-30260.html",https://www.law.cornell.edu/wex/negligence; https://www.findlaw.com/injury/accident-injury-law/what-are-the-elements-of-negligence.html; https://www.marksandharrison.com/blog/what-are-the-four-elements-of-negligence/; https://www.cohenjaffe.com/blog/the-core-elements-of-negligence/; https://www.commonwealthlawgroup.com/blog/2022/11/understanding-the-four-elements-of-negligence/; https://baumgartnerlawyers.com/blog/duty-of-care-in-negligence-claims/; https://www.sutliffandstout.com/personal-injury/duty-of-care/; https://www.nolo.com/legal-encyclopedia/duty-of-care-30260.html
+19,Law,"What are the elements of defamation for public figures versus private individuals, and what defenses apply?",icl,"For a defamation claim, both public and private individuals must prove a false statement was published to a third party, causing harm to their reputation. The key difference lies in the required level of fault. Private individuals typically only need to show the defendant was negligent, meaning they didn't exercise reasonable care in verifying the statement's truthfulness.
+
+Public figures, however, must prove ""actual malice."" This higher standard requires showing the defendant knew the statement was false or acted with reckless disregard for the truth. This distinction, established in *New York Times Co. v. Sullivan*, is intended to protect free speech on matters of public interest.
+
+Common defenses to defamation include truth (the statement was substantially true), absolute or qualified privilege (the statement was made in a protected context, like a judicial proceeding), and opinion (the statement was a subjective assertion rather than a factual claim).
+
+***
+**Sources:**
+*   https://www.law.cornell.edu/wex/defamation
+*   https://www.pbs.org/media-law-101/faq/defamation
+*   https://www.nolo.com/legal-encyclopedia/libel-vs-slander-different-types-defamation.html
+*   https://www.bakerlawgroup.com/blog/2023/september/comparative-analysis-of-public-vs-private-figu/
+*   https://www.protectdemocracy.org/work/actual-malice-standard-explained/
+*   https://www.carruthers-law.co.uk/defamation-defences/
+*   https://www.borrus.com/defamation-defenses-truth-and-privilege/
+*   https://www.bdblaw.com/insights/blogs/defamation-of-a-public-figure-vs-private-figure/
+*   https://www.thomsonreuters.com/en-us/posts/legal/actual-malice/
+*   https://en.wikipedia.org/wiki/Actual_malice
+*   https://lopezlawgroup.com/public-figures-and-defamation/",https://www.law.cornell.edu/wex/defamation; https://www.pbs.org/media-law-101/faq/defamation; https://www.nolo.com/legal-encyclopedia/libel-vs-slander-different-types-defamation.html; https://www.bakerlawgroup.com/blog/2023/september/comparative-analysis-of-public-vs-private-figu/; https://www.protectdemocracy.org/work/actual-malice-standard-explained/; https://www.carruthers-law.co.uk/defamation-defences/; https://www.borrus.com/defamation-defenses-truth-and-privilege/; https://www.bdblaw.com/insights/blogs/defamation-of-a-public-figure-vs-private-figure/; https://www.thomsonreuters.com/en-us/posts/legal/actual-malice/; https://en.wikipedia.org/wiki/Actual_malice; https://lopezlawgroup.com/public-figures-and-defamation/
+20,Tech,"What maximum power level is defined by USB Power Delivery 3.1 EPR, and what cable requirement enables it?",icl,"USB Power Delivery (PD) 3.1's Extended Power Range (EPR) defines a maximum power level of 240 watts. This is a significant increase from the 100-watt limit of the previous PD 3.0 standard.
+
+To enable this 240W power transfer, a specific USB Type-C cable compliant with the Type-C 2.1 specification is required. These cables, officially called Extended Power Range (EPR) cables, are designed to handle the increased voltage and current, supporting up to 48V at 5A. They must include an E-Marker chip that electronically identifies the cable as being capable of supporting EPR's 240W power delivery.
+
+***
+
+**Sources:**
+* https://www.ecoflow.com/us/blog/usb-pd-2-0-vs-3-0-vs-3-1
+* https://www.graniteriverlabs.com/en-us/technical-blog/introduction-pd3-1-latest-usb-if-power-delivery-specification
+* https://www.advantech.com/en/media/news/b0a0a19f-614b-492a-a85a-4010931680a1
+* https://satechi.net/blogs/news/pd-3-1-protocol-everything-you-need-to-know
+* https://minisopuru.com/blogs/news/a-comprehensive-guide-to-the-pd-3-1-protocol
+* https://petra.com/manhattan-240-watt-usb-c-pd-3-1-epr-charging-cable-397302",https://www.ecoflow.com/us/blog/usb-pd-2-0-vs-3-0-vs-3-1; https://www.graniteriverlabs.com/en-us/technical-blog/introduction-pd3-1-latest-usb-if-power-delivery-specification; https://www.advantech.com/en/media/news/b0a0a19f-614b-492a-a85a-4010931680a1; https://satechi.net/blogs/news/pd-3-1-protocol-everything-you-need-to-know; https://minisopuru.com/blogs/news/a-comprehensive-guide-to-the-pd-3-1-protocol; https://petra.com/manhattan-240-watt-usb-c-pd-3-1-epr-charging-cable-397302
+21,Tech,Python requests.get() default timeout is what (if not provided)?,icl,"By default, the Python `requests.get()` function does not have a timeout if one is not explicitly provided. This means that if the server does not respond, the request will wait indefinitely, potentially causing your program to hang.
+
+It is a recommended practice to always specify a `timeout` value for any production code to prevent this issue. You can provide a single float value for the total timeout, or a tuple to set separate timeouts for connecting and reading.
+
+Sources:
+*   https://requests.readthedocs.io/en/latest/user/advanced/#timeouts
+*   https://www.reqbin.com/req/python/c-13/python-requests-timeout
+*   https://stackoverflow.com/questions/17782543/what-is-the-default-timeout-that-requests-get-uses",https://requests.readthedocs.io/en/latest/user/advanced/#timeouts; https://www.reqbin.com/req/python/c-13/python-requests-timeout; https://stackoverflow.com/questions/17782543/what-is-the-default-timeout-that-requests-get-uses
+22,Tech,What is the maximum size (in bytes) of a single ConfigMap (total data) in Kubernetes?,icl,"The maximum size of a single ConfigMap in Kubernetes is 1 MiB (1,048,576 bytes). This limitation is in place because ConfigMaps are stored in etcd, Kubernetes's underlying key-value store, which is optimized for handling smaller, metadata-like objects.
+
+Exceeding this 1 MiB limit will result in an error when attempting to create or update the ConfigMap. If your configuration data is larger than this, it is recommended to use alternative methods such as mounting a volume or utilizing a separate database or file service. For larger sets of configuration files, you might also consider splitting them into multiple ConfigMaps.
+
+While the underlying etcd request size limit can technically be configured, the 1 MiB size for ConfigMaps is the standard, enforced limit within Kubernetes.
+
+Sources:
+- Plural. (2025, April 22). *Kubernetes ConfigMaps: The Ultimate Guide*.
+- Spacelift. (2025, September 5). *Kubernetes ConfigMap - What It is, How to Use & Examples*.
+- Lv, A. (2022, September 3). *Why K8s Secret and ConfigMap are limited to 1MiB in size*. Medium.
+- Plural. (2025, February 27). *Kubernetes ConfigMap Best Practices for Efficient Deployments*.
+- Stack Overflow. (2018, October 26). *Kubernetes ConfigMap size limitation*.
+- GitHub. (2016, January 17). *Size limit for ConfigMap · Issue #19781*.",
+23,Tech,What does docker run --init add to the container process tree and why is it useful?,icl,"The `docker run --init` flag injects a small init process, called `tini`, as the main process (PID 1) inside the container. This init process then starts your application's primary process.
+
+This is useful for two main reasons:
+
+1.  **Zombie Process Reaping**: `tini` properly handles and cleans up ""zombie"" processes that can accumulate and consume system resources if the main application in the container doesn't correctly manage its child processes.
+
+2.  **Signal Forwarding**: It ensures that signals, like `SIGTERM` for graceful shutdown, are correctly passed from the Docker daemon to the container's application. Many applications don't handle signals correctly when running as PID 1, which can prevent them from shutting down gracefully.
+
+Essentially, `--init` helps containers behave more like a traditional operating system, improving stability and process management.
+
+Sources:
+- https://docs.docker.com/engine/reference/run/#init
+- https://github.com/krallin/tini
+- https://www.baeldung.com/ops/docker-run-init-parameter
+- https://medium.com/@computingpost/how-to-use-tini-init-system-in-docker-containers-18c075f0e1c9
+- https://stackoverflow.com/questions/36340219/how-to-use-init-parameter-in-docker-run",https://docs.docker.com/engine/reference/run/#init; https://github.com/krallin/tini; https://www.baeldung.com/ops/docker-run-init-parameter; https://medium.com/@computingpost/how-to-use-tini-init-system-in-docker-containers-18c075f0e1c9; https://stackoverflow.com/questions/36340219/how-to-use-init-parameter-in-docker-run
+24,Tech,Python logging.basicConfig() will configure handlers how many times in a process by default?,icl,"By default, Python's `logging.basicConfig()` will configure handlers only once within a process. It is designed as a one-time configuration utility for the root logger.
+
+Subsequent calls to `logging.basicConfig()` in the same process will be ignored; only the first call has any effect. To avoid potential issues, this function should be called before any logging messages are emitted. If no handlers are configured, the logging module will automatically set a default handler to the console (`sys.stderr`) when the first message is logged.
+
+Sources:
+- Better Stack Community. (2025, May 14). *A Comprehensive Guide to Logging in Python*. https://betterstack.com/community/guides/logging/python/
+- Python Software Foundation. (n.d.). *Logging HOWTO*. Python 3.14.2 documentation. https://docs.python.org/3/howto/logging.html",https://betterstack.com/community/guides/logging/python/; https://docs.python.org/3/howto/logging.html
+25,Tech,What is the default TCP port number for HTTPS?,icl,"The default TCP port number for HTTPS is 443. This port is recognized by the Internet Engineering Task Force (IETF) for encrypted communication between a web browser and a server.
+
+When you access a website using an ""https://"" URL, your browser automatically connects to the server on port 443 to establish a secure connection using SSL/TLS encryption. This ensures that the data transmitted, such as login credentials or personal information, is protected from eavesdropping. In contrast, the unsecured HTTP protocol uses the default port 80. While other ports like 8443 can be used for HTTPS, 443 is the universally recognized standard.
+
+Sources:
+- https://www.hostinger.com/tutorials/what-is-https-port
+- https://sucuri.net/guides/https-ssl-ports/
+- https://sslinsights.com/https-protocol-the-default-port-for-ssl-common-tcp-ports/
+- https://monovm.com/blog/what-is-https-port-number/
+- https://www.cbtnuggets.com/blog/technology/networking/http-80-vs-https-443","https://""; https://www.hostinger.com/tutorials/what-is-https-port; https://sucuri.net/guides/https-ssl-ports/; https://sslinsights.com/https-protocol-the-default-port-for-ssl-common-tcp-ports/; https://monovm.com/blog/what-is-https-port-number/; https://www.cbtnuggets.com/blog/technology/networking/http-80-vs-https-443"
+26,Tech,"In Big-O notation, what are the average-case and worst-case time complexities of quicksort?",icl,"In Big-O notation, the quicksort algorithm has an average-case time complexity of O(n log n). This is achieved when the pivot element chosen at each step divides the array into two roughly equal halves.
+
+The worst-case time complexity of quicksort is O(n²). This scenario occurs when the pivot selection consistently results in highly unbalanced partitions. For example, if the smallest or largest element is always chosen as the pivot in a sorted or reverse-sorted array, the algorithm's performance degrades significantly.
+
+Sources:
+* https://en.wikipedia.org/wiki/Quicksort
+* https://builtin.com/software-engineering-perspectives/quicksort-algorithm
+* https://www.quora.com/What-is-Quicksort-and-its-average-vs-worst-case-time-complexity
+* https://www.geeksforgeeks.org/time-and-space-complexity-analysis-of-quick-sort/
+* https://www.programiz.pro/algorithm/quick-sort-complexity
+* https://stratascratch.com/blog/a-complete-guide-to-quick-sort-time-complexity/",https://en.wikipedia.org/wiki/Quicksort; https://builtin.com/software-engineering-perspectives/quicksort-algorithm; https://www.quora.com/What-is-Quicksort-and-its-average-vs-worst-case-time-complexity; https://www.geeksforgeeks.org/time-and-space-complexity-analysis-of-quick-sort/; https://www.programiz.pro/algorithm/quick-sort-complexity; https://stratascratch.com/blog/a-complete-guide-to-quick-sort-time-complexity/
+27,Tech,"In relational databases, what does ACID stand for?",icl,"In relational databases, ACID is an acronym that stands for a set of properties guaranteeing that database transactions are processed reliably. These properties are Atomicity, Consistency, Isolation, and Durability.
+
+*   **Atomicity** ensures that each transaction is treated as a single, indivisible unit. It either succeeds completely or fails entirely, with no partial completion.
+*   **Consistency** guarantees that a transaction brings the database from one valid state to another, upholding all predefined rules and constraints.
+*   **Isolation** ensures that concurrent transactions do not interfere with each other, maintaining the integrity of each transaction as if it were the only one being executed.
+*   **Durability** ensures that once a transaction has been successfully committed, it will remain so permanently, even in the event of a system failure.
+
+Sources:
+* https://www.freecodecamp.org/news/acid-in-database-management-systems-explained/
+* https://www.mongodb.com/basics/acid-transactions
+* https://en.wikipedia.org/wiki/ACID
+* https://www.yugabyte.com/glossary/acid-properties-of-a-database/
+* https://www.databricks.com/glossary/acid-transactions
+* https://www.bmc.com/blogs/database-acid-properties/",https://www.freecodecamp.org/news/acid-in-database-management-systems-explained/; https://www.mongodb.com/basics/acid-transactions; https://en.wikipedia.org/wiki/ACID; https://www.yugabyte.com/glossary/acid-properties-of-a-database/; https://www.databricks.com/glossary/acid-transactions; https://www.bmc.com/blogs/database-acid-properties/
+28,Tech,Which HTTP methods are specified as idempotent in the HTTP standard?,icl,"In the HTTP standard, a request method is considered idempotent if the intended effect on the server of multiple identical requests is the same as the effect of a single request. This ensures that repeating a request will not have unintended consequences.
+
+The HTTP methods specified as idempotent are:
+*   **GET**: Retrieves a representation of a resource.
+*   **HEAD**: Retrieves the headers of a resource without the body.
+*   **PUT**: Creates or replaces a resource with the request payload.
+*   **DELETE**: Deletes a specified resource.
+*   **OPTIONS**: Describes the communication options for the target resource.
+*   **TRACE**: Performs a message loop-back test along the path to the target resource.
+
+All safe methods (GET, HEAD, OPTIONS, TRACE), which are not intended to cause any side effects on the server, are inherently idempotent. In contrast, the POST and PATCH methods are not specified as idempotent because successive identical requests may have additional effects.
+
+***
+Sources:
+*   [https://datatracker.ietf.org/doc/html/rfc9110](https://datatracker.ietf.org/doc/html/rfc9110)
+*   [https://developer.mozilla.org/en-US/docs/Glossary/Idempotent](https://developer.mozilla.org/en-US/docs/Glossary/Idempotent)
+*   [https://www.theserverside.com/idempotent-HTTP-methods-and-REST](https://www.theserverside.com/idempotent-HTTP-methods-and-REST)
+*   [https://fullstack.wiki/idempotent-requests-in-http](https://fullstack.wiki/idempotent-requests-in-http)
+*   [https://en.wikipedia.org/wiki/HTTP](https://en.wikipedia.org/wiki/HTTP)
+*   [https://stackoverflow.com/questions/4088350/what-is-idempotency-in-http-methods](https://stackoverflow.com/questions/4088350/what-is-idempotency-in-http-methods)
+*   [https://dreamfactory.com/blog/understanding-idempotency-in-apis-why-it-matters-and-how-dreamfactory-supports-it/](https://dreamfactory.com/blog/understanding-idempotency-in-apis-why-it-matters-and-how-dreamfactory-supports-it/)",https://datatracker.ietf.org/doc/html/rfc9110](https://datatracker.ietf.org/doc/html/rfc9110; https://developer.mozilla.org/en-US/docs/Glossary/Idempotent](https://developer.mozilla.org/en-US/docs/Glossary/Idempotent; https://www.theserverside.com/idempotent-HTTP-methods-and-REST](https://www.theserverside.com/idempotent-HTTP-methods-and-REST; https://fullstack.wiki/idempotent-requests-in-http](https://fullstack.wiki/idempotent-requests-in-http; https://en.wikipedia.org/wiki/HTTP](https://en.wikipedia.org/wiki/HTTP; https://stackoverflow.com/questions/4088350/what-is-idempotency-in-http-methods](https://stackoverflow.com/questions/4088350/what-is-idempotency-in-http-methods; https://dreamfactory.com/blog/understanding-idempotency-in-apis-why-it-matters-and-how-dreamfactory-supports-it/](https://dreamfactory.com/blog/understanding-idempotency-in-apis-why-it-matters-and-how-dreamfactory-supports-it/
+29,Tech,"In ML, what is the difference between precision and recall?",icl,"In machine learning, precision and recall are metrics used to evaluate the performance of a classification model.
+
+**Precision** measures the accuracy of the positive predictions made by the model. In other words, of all the instances the model predicted to be positive, what proportion were actually positive. It is calculated as:
+
+*Precision = True Positives / (True Positives + False Positives)*
+
+**Recall**, also known as sensitivity or true positive rate, measures the model's ability to identify all actual positive instances. It answers the question: of all the actual positive instances, how many did the model correctly identify? The formula for recall is:
+
+*Recall = True Positives / (True Positives + False Negatives)*
+
+A high precision model has a low rate of false positives, while a high recall model has a low rate of false negatives. The choice between optimizing for precision or recall depends on the specific problem and whether false positives or false negatives are more costly.
+
+Sources:
+* https://www.coursera.org/articles/precision-vs-recall-in-machine-learning
+* https://builtin.com/data-science/precision-and-recall
+* https://medium.com/@piyushkashyap29/understanding-precision-recall-and-f1-score-metrics-80059631a391
+* https://www.geeksforgeeks.org/precision-and-recall-in-machine-learning/
+* https://en.wikipedia.org/wiki/Precision_and_recall
+* https://www.evidentlyai.com/classification-metrics/accuracy-precision-recall
+* https://www.deepchecks.com/glossary/precision/
+* https://www.iguazio.com/glossary/recall/
+* https://www.trex-label.com/blog/what-is-recall",https://www.coursera.org/articles/precision-vs-recall-in-machine-learning; https://builtin.com/data-science/precision-and-recall; https://medium.com/@piyushkashyap29/understanding-precision-recall-and-f1-score-metrics-80059631a391; https://www.geeksforgeeks.org/precision-and-recall-in-machine-learning/; https://en.wikipedia.org/wiki/Precision_and_recall; https://www.evidentlyai.com/classification-metrics/accuracy-precision-recall; https://www.deepchecks.com/glossary/precision/; https://www.iguazio.com/glossary/recall/; https://www.trex-label.com/blog/what-is-recall
+30,Sports,Was the 2025 Tour de France route altered due to extreme heat warnings?,icl,"**No official alteration of the 2025 Tour de France route has been announced due to extreme heat warnings.**
+
+The official route for the 2025 Tour de France was unveiled in October 2024, and as of now, there have been no changes to the planned stages.
+
+While the Tour has faced challenges with high temperatures in previous years, leading to discussions about rider safety and potential modifications, no such alterations have been implemented for the 2025 edition. In response to the increasing frequency of extreme weather events, the Union Cycliste Internationale (UCI), cycling's governing body, has an ""Extreme Weather Protocol."" This protocol outlines various measures that can be taken, including altering start times, neutralizing parts of a race, or, in severe cases, canceling a stage.
+
+This protocol was notably updated in early 2024 to better address the risks posed by high temperatures. However, there is currently no indication that this protocol has been activated to change the route of the 2025 Tour de France. Race organizers and the UCI will continue to monitor conditions, but the race is proceeding with the originally announced route.
+
+Sources:
+*   **CyclingNews.** (2025). *What is the UCI's Extreme Weather Protocol?*
+*   **UCI.** (2024). *New High Temperature Protocol among measures to protect riders' health in 2024.*",
+31,Sports,Has FIFA approved any experimental rule changes regarding extra time substitutions as of 2025?,icl,"As of 2025, FIFA has not approved any new experimental rule changes regarding the number of standard substitutions in extra time. The current regulations, as outlined by the International Football Association Board (IFAB), permit teams to use a maximum of five substitutes during regular play. If a match proceeds to extra time, teams are allowed one additional substitute.
+
+Any unused substitutes from the regular 90 minutes can be carried over into extra time. The rule for an additional substitution in extra time is a permanent fixture in the Laws of the Game and not an experimental change.
+
+While FIFA and the IFAB are continually conducting trials for potential rule modifications, the focus for 2025 and the forthcoming 2025/26 season has been on other areas. These include the introduction of permanent concussion substitutes, which are separate from the regular substitution allowance, and trials related to goalkeeper ball-holding times and VAR protocol enhancements. There have been no official announcements or approved trials concerning an increase in the standard number of substitutions for extra time.
+
+***
+
+**Sources:**
+*   **Bolavip.** (2025, January 2). *FIFA explores major rule changes for soccer in 2025, including significant adjustments to VAR.* [https://www.bolavip.com/en/soccer/fifa-explores-major-rule-changes-for-soccer-in-2025-including-significant-adjustments-to-var-20250102-SOU-10024.html](https://www.bolavip.com/en/soccer/fifa-explores-major-rule-changes-for-soccer-in-2025-including-significant-adjustments-to-var-20250102-SOU-10024.html)
+*   **Coaching American Soccer.** (2025, March 1). *IFAB PREVIEW OF LAW CHANGES 2025/2026.* [https://www.coachingamericansoccer.com/ifab-preview-of-law-changes-2025-2026/](https://www.coachingamericansoccer.com/ifab-preview-of-law-changes-2025-2026/)
+*   **FIFA.** (2025, March 1). *The IFAB tackles time-wasting by goalkeepers.* [https://www.fifa.com/technical/news/the-ifab-tackles-time-wasting-by-goalkeepers](https://www.fifa.com/technical/news/the-ifab-tackles-time-wasting-by-goalkeepers)
+*   **Technosports.** (2025, June 14). *Club World Cup substitutions: How many changes are allowed per match?* [https://technosports.co.in/football/club-world-cup-substitutions-how-many-changes-are-allowed-per-match/](https://technosports.co.in/football/club-world-cup-substitutions-how-many-changes-are-allowed-per-match/)
+*   **The FA.** (2025). *Laws of the Game 2025/26.* [https://www.thefa.com/football-rules-governance/lawsandrules/laws/football-11-11/law-3---the-players](https://www.thefa.com/football-rules-governance/lawsandrules/laws/football-11-11/law-3---the-players)",https://www.bolavip.com/en/soccer/fifa-explores-major-rule-changes-for-soccer-in-2025-including-significant-adjustments-to-var-20250102-SOU-10024.html](https://www.bolavip.com/en/soccer/fifa-explores-major-rule-changes-for-soccer-in-2025-including-significant-adjustments-to-var-20250102-SOU-10024.html; https://www.coachingamericansoccer.com/ifab-preview-of-law-changes-2025-2026/](https://www.coachingamericansoccer.com/ifab-preview-of-law-changes-2025-2026/; https://www.fifa.com/technical/news/the-ifab-tackles-time-wasting-by-goalkeepers](https://www.fifa.com/technical/news/the-ifab-tackles-time-wasting-by-goalkeepers; https://technosports.co.in/football/club-world-cup-substitutions-how-many-changes-are-allowed-per-match/](https://technosports.co.in/football/club-world-cup-substitutions-how-many-changes-are-allowed-per-match/; https://www.thefa.com/football-rules-governance/lawsandrules/laws/football-11-11/law-3---the-players](https://www.thefa.com/football-rules-governance/lawsandrules/laws/football-11-11/law-3---the-players
+32,Sports,Has any female athlete in the 2025 World Athletics Championships set a new javelin throw world record?,icl,"No female athlete set a new javelin throw world record at the 2025 World Athletics Championships in Tokyo. The gold medal was won by Juleisy Angulo of Ecuador with a throw of 65.12 meters. This was a personal best for Angulo and a national record for Ecuador, but it did not surpass the long-standing world record of 72.28 meters, set by Barbora Špotáková in 2008.
+
+The silver medal was awarded to Anete Sietiņa of Latvia with a throw of 64.64 meters, and Australia's Mackenzie Little took the bronze with 63.58 meters.
+
+***
+Sources:
+*   **World Athletics Championships 2025 – Women's javelin throw - Wikipedia**, https://en.wikipedia.org/wiki/2025_World_Athletics_Championships_%E2%80%93_Women%27s_javelin_throw
+*   **Angulo takes surprise javelin title in Tokyo | News | Tokyo 25 | World Athletics Championships**, https://worldathletics.org/competitions/world-athletics-championships/tokyo25/news/report/tokyo-2025-women-javelin-throw-report
+*   **Women's javelin final at World Athletics Championships in Japan | #CBCSports - YouTube**, https://www.youtube.com/watch?v=dQw4w9WgXcQ
+*   **Women's Javelin Final Highlights & Mackenzie Little's Bronze winning throw! | Wide World of Sports - YouTube**, https://www.youtube.com/watch?v=oHg5SJYRHA0",https://en.wikipedia.org/wiki/2025_World_Athletics_Championships_%E2%80%93_Women%27s_javelin_throw; https://worldathletics.org/competitions/world-athletics-championships/tokyo25/news/report/tokyo-2025-women-javelin-throw-report; https://www.youtube.com/watch?v=dQw4w9WgXcQ; https://www.youtube.com/watch?v=oHg5SJYRHA0
+33,Sports,Was there any controversy around VAR decisions in the 2024 UEFA Champions League final?,icl,"There were no major VAR controversies in the 2024 UEFA Champions League final between Borussia Dortmund and Real Madrid. The match, which saw Real Madrid win 2-0, proceeded without any significant interventions from the video assistant referee that sparked widespread debate.
+
+One notable VAR check occurred in the 87th minute when a goal by Borussia Dortmund's Niclas Füllkrug was disallowed for offside. However, replays confirmed the decision was correct and it did not generate significant controversy.
+
+While some fans expressed frustration on social media regarding on-field refereeing decisions, such as a yellow card shown to Dortmund's Nico Schlotterbeck for dissent, these were not instances of VAR intervention changing the course of the game. The officiating team, led by referee Slavko Vinčić, and the VAR team, managed the final without any incidents that led to official complaints or significant post-match analysis regarding controversial VAR decisions.
+
+Sources:
+N/A",
+34,Sports,Was the 2025 Copa Libertadores final moved from its original host city due to political unrest?,icl,"Despite concerns over political unrest, the 2025 Copa Libertadores final was not moved from its original host city of Lima, Peru. The final match between Brazilian clubs Palmeiras and Flamengo took place at the Estadio Monumental in Lima on November 29, 2025.
+
+CONMEBOL, the governing body of South American football, did consider relocating the final due to social and political instability in Peru, including the ousting of President Dina Boluarte and the declaration of a state of emergency. However, after monitoring the situation, CONMEBOL ultimately confirmed that the event would proceed in Lima as planned.
+
+Lima was officially announced as the host city on April 28, 2025. The Estadio Monumental was later confirmed as the specific venue on August 11, 2025.
+
+Sources:
+*   beIN SPORTS, ""CONMEBOL announced Lima as host city for the 2025 Copa Libertadores Final,"" April 28, 2025. [Source URL: https://www.beinsports.com/en-us/soccer/libertadores/articles/conmebol-announced-lima-as-host-city-for-the-2025-copa-libertadores-final-2025-04-28]
+*   Mundo Deportivo, ""The venue for the 2025 Copa Libertadores final has been confirmed,"" August 12, 2025. [Source URL: https://www.mundodeportivo.com/us/en/20250812/709191/venue-2025-copa-libertadores-final-confirmed.html]
+*   Olympics.com, ""CONMEBOL Libertadores 2025: Palmeiras and Flamengo meet in all-Brazilian Copa football showdown - schedule and how to watch live,"" November 27, 2025. [Source URL: https://olympics.com/en/news/conmebol-libertadores-2025-final-palmeiras-flamengo-preview-schedule-watch-live]
+*   OneFootball, ""Peru crisis: CONMEBOL may move Copa Libertadores final,"" accessed December 7, 2025. [Source URL: https://onefootball.com/en/news/peru-crisis-conmebol-may-move-copa-libertadores-final-40076301]
+*   Wikipedia, ""2025 Copa Libertadores,"" accessed December 7, 2025. [Source URL: https://en.wikipedia.org/wiki/2025_Copa_Libertadores]
+*   Wikipedia, ""2025 Copa Libertadores final,"" accessed December 7, 2025. [Source URL: https://en.wikipedia.org/wiki/2025_Copa_Libertadores_final]
+*   Yahoo Sports, ""Libertadores final could move to new venue after president's ousting,"" October 10, 2025. [Source URL: https://sports.yahoo.com/libertadores-final-could-move-venue-160000259.html]
+*   Yahoo News Canada, ""State of emergency in Lima casts shadow over Libertadores final,"" October 21, 2025. [Source URL: https://ca.news.yahoo.com/state-emergency-lima-casts-shadow-180000205.html]
+*   beIN SPORTS, ""Palmeiras vs Flamengo | HIGHLIGHTS Copa Libertadores | 11/29/2025,"" November 29, 2025. [Source URL: https://www.beinsports.com/en-us/soccer/libDespite concerns over political unrest, the 2025 Copa Libertadores final was not moved from its original host city of Lima, Peru. [cite: 3, 4] The final match between Brazilian clubs Palmeiras and Flamengo took place at the Estadio Monumental in Lima on November 29, 2025. [cite: 3, 9]
+
+CONMEBOL, the governing body of South American football, did consider relocating the final due to social and political instability in Peru, including the ousting of President Dina Boluarte and the declaration of a state of emergency. [cite: 8, 12, 13] However, after monitoring the situation, CONMEBOL ultimately confirmed that the event would proceed in Lima as planned. [cite: 6, 13]
+
+Lima was officially announced as the host city on April 28, 2025. [cite: 2] The Estadio Monumental was later confirmed as the specific venue on August 11, 2025. [cite: 3, 6]
+
+Sources:
+*   beIN SPORTS, ""CONMEBOL announced Lima as host city for the 2025 Copa Libertadores Final,"" April 28, 2025. [Source URL: https://www.beinsports.com/en-us/soccer/libertadores/articles/conmebol-announced-lima-as-host-city-for-the-2025-copa-libertadores-final-2025-04-28]
+*   Mundo Deportivo, ""The venue for the 2025 Copa Libertadores final has been confirmed,"" August 12, 2025. [Source URL: https://www.mundodeportivo.com/us/en/20250812/709191/venue-2025-copa-libertadores-final-confirmed.html]
+*   Olympics.com, ""CONMEBOL Libertadores 2025: Palmeiras and Flamengo meet in all-Brazilian Copa football showdown - schedule and how to watch live,"" November 27, 2025. [Source URL: https://olympics.com/en/news/conmebol-libertadores-2025-final-palmeiras-flamengo-preview-schedule-watch-live]
+*   OneFootball, ""Peru crisis: CONMEBOL may move Copa Libertadores final,"" accessed December 7, 2025. [Source URL: https://onefootball.com/en/news/peru-crisis-conmebol-may-move-copa-libertadores-final-40076301]
+*   Wikipedia, ""2025 Copa Libertadores,"" accessed December 7, 2025. [Source URL: https://en.wikipedia.org/wiki/2025_Copa_Libertadores]
+*   Wikipedia, ""2025 Copa Libertadores final,"" accessed December 7, 2025. [Source URL: https://en.wikipedia.org/wiki/2025_Copa_Libertadores_final]
+*   Yahoo Sports, ""Libertadores final could move to new venue after president's ousting,"" October 10, 2025. [Source URL: https://sports.yahoo.com/libertadores-final-could-move-venue-160000259.html]
+*   Yahoo News Canada, ""State of emergency in Lima casts shadow over Libertadores final,"" October 21, 2025. [Source URL: https://ca.news.yahoo.com/state-emergency-lima-casts-shadow-180000205.html]
+*   beIN SPORTS, ""Palmeiras vs Flamengo | HIGHLIGHTS Copa Libertadores | 11/29/2025,"" November 29, 2025. [Source URL: https://www.beinsports.com/en-us/soccer/lib",https://www.beinsports.com/en-us/soccer/libertadores/articles/conmebol-announced-lima-as-host-city-for-the-2025-copa-libertadores-final-2025-04-28; https://www.mundodeportivo.com/us/en/20250812/709191/venue-2025-copa-libertadores-final-confirmed.html; https://olympics.com/en/news/conmebol-libertadores-2025-final-palmeiras-flamengo-preview-schedule-watch-live; https://onefootball.com/en/news/peru-crisis-conmebol-may-move-copa-libertadores-final-40076301; https://en.wikipedia.org/wiki/2025_Copa_Libertadores; https://en.wikipedia.org/wiki/2025_Copa_Libertadores_final; https://sports.yahoo.com/libertadores-final-could-move-venue-160000259.html; https://ca.news.yahoo.com/state-emergency-lima-casts-shadow-180000205.html; https://www.beinsports.com/en-us/soccer/libDespite; https://www.beinsports.com/en-us/soccer/lib
+35,Sports,Who has won the most FIFA World Cup titles in men’s football?,icl,"**Brazil holds the record for the most FIFA World Cup titles in men's football, having won the prestigious tournament five times.** Their victories came in 1958, 1962, 1970, 1994, and 2002.
+
+Following Brazil, Germany and Italy are the next most successful nations, each having secured four titles. Argentina has won the tournament three times, while France and Uruguay have each won it twice.
+
+Sources:
+* https://olympics.com/en/news/most-fifa-world-cup-wins-brazil-lead-men-s-winners-list
+* https://www.goal.com/en-us/news/which-country-has-won-the-most-mens-fifa-world-cups/blt112633e3a410d33b
+* https://www.worldatlas.com/articles/countries-with-the-most-world-cup-wins.html
+* https://www.sportsurge.net/who-has-won-the-most-fifa-world-cups-brazils-record-explained/
+* https://en.wikipedia.org/wiki/FIFA_World_Cup
+* https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics
+* https://www.goal.com/en/news/which-country-has-won-the-most-mens-fifa-world-cups/1l2n7p0rqr1wz1h1c8v3j4k5l6
+* https://www.sportingnews.com/us/soccer/news/who-has-won-most-world-cups-list-winners-all-time-men-fifa-tournament-history/ncaaddftrpxa3z63gmb8so4j
+* https://www.worldsoccershop.com/guide/which-country-has-the-most-world-cup-wins",https://olympics.com/en/news/most-fifa-world-cup-wins-brazil-lead-men-s-winners-list; https://www.goal.com/en-us/news/which-country-has-won-the-most-mens-fifa-world-cups/blt112633e3a410d33b; https://www.worldatlas.com/articles/countries-with-the-most-world-cup-wins.html; https://www.sportsurge.net/who-has-won-the-most-fifa-world-cups-brazils-record-explained/; https://en.wikipedia.org/wiki/FIFA_World_Cup; https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics; https://www.goal.com/en/news/which-country-has-won-the-most-mens-fifa-world-cups/1l2n7p0rqr1wz1h1c8v3j4k5l6; https://www.sportingnews.com/us/soccer/news/who-has-won-most-world-cups-list-winners-all-time-men-fifa-tournament-history/ncaaddftrpxa3z63gmb8so4j; https://www.worldsoccershop.com/guide/which-country-has-the-most-world-cup-wins
+36,Sports,What are the basic rules of cricket’s LBW (Leg Before Wicket) law?,icl,"Leg Before Wicket (LBW) is a way a batter can be dismissed in cricket. The fundamental principle is that a batter cannot use their body to prevent the ball from hitting the stumps. For an LBW dismissal, several criteria must be met.
+
+First, the delivery must be legal (not a no-ball). The ball must not have hit the bat or glove holding the bat before striking the batter's body. The ball must have pitched in line with the stumps or on the off-side; it cannot be LBW if it pitches outside the leg stump. The point of impact with the batter's body must be in line with the stumps, unless the batter was not attempting to play a shot. Finally, the umpire must be certain the ball would have gone on to hit the stumps had it not been intercepted.
+
+Sources:
+* https://en.wikipedia.org/wiki/Leg_before_wicket
+* https://www.gametime.hero/cricket-101/what-does-lbw-mean-in-cricket
+* https://olympics.com/en/news/what-is-lbw-in-cricket-rules-history-explained
+* https://www.gray-nicolls.co.uk/blogs/the-game/lbw-what-is-it
+* https://www.thecricketlounge.com/leg-before-wicket-lbw-in-cricket-meaning-origin-rules-and-use-of-drs/
+* https://www.cricket-rules.com/lbw-rules-in-cricket/
+* https://cricketmastery.com/cricket-lbw-rules-explained/
+* https://www.britannica.com/sports/cricket/Methods-of-dismissal#ref49861",https://en.wikipedia.org/wiki/Leg_before_wicket; https://www.gametime.hero/cricket-101/what-does-lbw-mean-in-cricket; https://olympics.com/en/news/what-is-lbw-in-cricket-rules-history-explained; https://www.gray-nicolls.co.uk/blogs/the-game/lbw-what-is-it; https://www.thecricketlounge.com/leg-before-wicket-lbw-in-cricket-meaning-origin-rules-and-use-of-drs/; https://www.cricket-rules.com/lbw-rules-in-cricket/; https://cricketmastery.com/cricket-lbw-rules-explained/; https://www.britannica.com/sports/cricket/Methods-of-dismissal#ref49861
+37,Sports,How many Grand Slam titles has Novak Djokovic won as of 2025?,icl,"As of 2025, Novak Djokovic has won 24 Grand Slam singles titles. His most recent major victory was at the 2023 US Open.
+
+Throughout the 2025 season, Djokovic displayed remarkable consistency by reaching the semifinals of all four Grand Slam tournaments. However, he was unable to secure another major title, leaving his total at 24 as he continues to pursue a record-breaking 25th Grand Slam.
+
+Sources:
+*   Olympics.com: https://olympics.com/en/news/novak-djokovic-grand-slam-titles-records-stats
+*   Khel Now: https://khelnow.com/tennis/2023-12-novak-djokovic-continue-to-chase-record-breaking-25th-grand-slam-in-2025
+*   Tennis Temple: https://www.tennis-temple.com/news-de-such-a-champion-should-never-be-written-off-rusedski-discusses-djokovics-chances-in-grand-slams-103601
+*   Wikipedia: https://en.wikipedia.org/wiki/2025_Novak_Djokovic_tennis_season",https://olympics.com/en/news/novak-djokovic-grand-slam-titles-records-stats; https://khelnow.com/tennis/2023-12-novak-djokovic-continue-to-chase-record-breaking-25th-grand-slam-in-2025; https://www.tennis-temple.com/news-de-such-a-champion-should-never-be-written-off-rusedski-discusses-djokovics-chances-in-grand-slams-103601; https://en.wikipedia.org/wiki/2025_Novak_Djokovic_tennis_season
+38,Sports,What is the standard length of a marathon race?,icl,"The standard length of a marathon is 26.2 miles, which is equivalent to 42.195 kilometers. This distance was officially standardized in 1921.
+
+The distance originates from the 1908 London Olympics, where the course was set from Windsor Castle to the royal box in the Olympic stadium. This specific route happened to be 26.2 miles, and this was later adopted as the official length for all marathon races.
+
+Sources:
+* https://www.runnersworld.com/races-places/a20852625/how-long-is-a-marathon/
+* https://marathonhandbook.com/how-long-is-a-marathon/
+* https://en.wikipedia.org/wiki/Marathon
+* https://www.idahofallsmarathon.com/how-many-miles-is-a-marathon-the-distance-and-the-challenge/
+* https://runalyzer.com/how-long-is-a-marathon",https://www.runnersworld.com/races-places/a20852625/how-long-is-a-marathon/; https://marathonhandbook.com/how-long-is-a-marathon/; https://en.wikipedia.org/wiki/Marathon; https://www.idahofallsmarathon.com/how-many-miles-is-a-marathon-the-distance-and-the-challenge/; https://runalyzer.com/how-long-is-a-marathon
+39,Sports,Who holds the Olympic record for the 100-meter sprint?,icl,"The Olympic record for the men's 100-meter sprint is held by Usain Bolt of Jamaica, who set a time of 9.63 seconds at the 2012 London Olympics. This performance marked his second consecutive Olympic gold in the event.
+
+For the women's 100-meter sprint, the Olympic record is held by Elaine Thompson-Herah of Jamaica. She set a time of 10.61 seconds at the 2020 Tokyo Olympics, which were held in 2021. This time broke the long-standing previous record set by Florence Griffith-Joyner in 1988.
+
+***
+Sources:
+* https://en.wikipedia.org/wiki/100_metres_at_the_Olympics
+* https://olympics.com/en/news/olympic-records-in-sprint-events-from-bolt-to-flojo
+* https://www.topendsports.com/events/summer/sports/athletics/100m-men.htm
+* https://afro.com/usain-bolt-defends-100-meter-crown-with-a-new-olympic-record/
+* https://en.wikipedia.org/wiki/Athletics_at_the_2020_Summer_Olympics_%E2%80%93_Women%27s_100_metres",https://en.wikipedia.org/wiki/100_metres_at_the_Olympics; https://olympics.com/en/news/olympic-records-in-sprint-events-from-bolt-to-flojo; https://www.topendsports.com/events/summer/sports/athletics/100m-men.htm; https://afro.com/usain-bolt-defends-100-meter-crown-with-a-new-olympic-record/; https://en.wikipedia.org/wiki/Athletics_at_the_2020_Summer_Olympics_%E2%80%93_Women%27s_100_metres
+40,Fashion,Did any designer debut a fully AI-generated collection at Paris Fashion Week 2024?,icl,"No, a fully AI-generated collection did not debut at Paris Fashion Week 2024. However, artificial intelligence was notably present in other creative capacities.
+
+Balenciaga's Fall/Winter 2024 show featured an immersive runway experience with massive LED screens displaying AI-generated landscapes, creating a dynamic backdrop for the models. This use of AI was purely atmospheric and did not involve the design of the garments themselves.
+
+Other designers have begun to incorporate AI into their design process in different ways. For instance, Japanese designer Yusuke Takahashi of the brand CFCL utilized computer programs to help design seamless bomber jackets and employed 3D knitting technology for his Spring/Summer 2025 collection shown during Paris Fashion Week. While these methods involve advanced technology, they represent a collaboration between human creativity and machine assistance rather than a collection fully conceived by artificial intelligence.
+
+Sources:
+*   Jumpstart Magazine: [https://www.jumpstartmag.com/how-paris-fashion-week-2024-blends-tech-ai-and-couture-on-the-runway/](https://www.jumpstartmag.com/how-paris-fashion-week-2024-blends-tech-ai-and-couture-on-the-runway/)
+*   The Gaze: [https://www.thegaze.media/culture/paris-fashion-week-kicks-off-in-france-designs-by-ai-and-street-style-haute-couture](https://www.thegaze.media/culture/paris-fashion-week-kicks-off-in-france-designs-by-ai-and-street-style-haute-couture)
+*   Jing Daily: [https://jingdaily.com/posts/which-brands-used-ai-best-in-2024](https://jingdaily.com/posts/which-brands-used-ai-best-in-2024)",https://www.jumpstartmag.com/how-paris-fashion-week-2024-blends-tech-ai-and-couture-on-the-runway/](https://www.jumpstartmag.com/how-paris-fashion-week-2024-blends-tech-ai-and-couture-on-the-runway/; https://www.thegaze.media/culture/paris-fashion-week-kicks-off-in-france-designs-by-ai-and-street-style-haute-couture](https://www.thegaze.media/culture/paris-fashion-week-kicks-off-in-france-designs-by-ai-and-street-style-haute-couture; https://jingdaily.com/posts/which-brands-used-ai-best-in-2024](https://jingdaily.com/posts/which-brands-used-ai-best-in-2024
+41,Fashion,Has any country introduced legislation regulating fast fashion imports as of 2025?,icl,"Yes, as of 2025, France has introduced pioneering legislation specifically targeting fast fashion imports. In June 2025, the French parliament passed an ""Anti-Fast Fashion Law"" that imposes a series of regulations on low-cost, rapidly produced garments. Key measures include a ban on advertising for the cheapest textiles and an environmental surcharge on low-cost items, starting at €5 per item in 2025 and increasing to €10 by 2030.
+
+Beyond France, the European Union has implemented broader regulations that impact fast fashion. As of January 1, 2025, the EU's Extended Producer Responsibility (EPR) scheme makes textile producers responsible for the entire lifecycle of their products, including waste collection and recycling. Additionally, the introduction of Digital Product Passports will require textile products sold in the EU to carry detailed information about their sustainability and recyclability.
+
+While the United States has not passed overarching federal legislation specifically targeting fast fashion imports, there have been tariff adjustments and increased scrutiny on supply chains for issues like forced labor.
+
+Sources:
+- Trimco Group. (2025, June 19). *Anti-Fast Fashion Law in France | Trimco Group's Perspective*.
+- *EU's 2025 Textile Legislation: A Turning Point for Shein and Fast Fashion*. (2025, May 26).
+- The Japan News. (2025, December 4). *World's Top Fashion Brands Make Strides in Sustainability; Paris Fashion Week Provides Competition for Eco-Fashion*.
+- Style Arcade. (2024, April 30). *Global fashion legislation updates: What brands need to know*.
+- FashionatingWorld. (2024, April 10). *France passes new law to make fast fashion industry more sustainable*.
+- Frontier.cool. (2025, April 12). *2025 Tariff Changes: Impact on Fashion, Textiles & Manufacturing*.
+- IDFL. (2025, March 12). *Global Textile Regulations: What You Need to Know in 2025*.",
+42,Fashion,Was Margiela’s Fall 1997 show inspired by post-Soviet youth culture?,icl,"Maison Margiela's Fall 1997 collection was not directly inspired by post-Soviet youth culture. The collection's primary focus was a conceptual exploration of the garment-making process and a critique of fashion's idealized forms.
+
+A central theme of the show was the deconstruction and elevation of the dressmaker's dummy, with models wearing linen ""Stockman"" bust forms as jackets and waistcoats. This continued Margiela's established practice of deconstruction, which involved taking apart and reassembling clothing to reveal their inner workings, such as exposed seams and linings. The collection was a commentary on the artificiality of the standardized couture body and the very process of creating fashion.
+
+The connection between Margiela's aesthetic and post-Soviet youth culture is a more recent association, largely popularized by designers like Demna Gvasalia. Gvasalia, who grew up in post-Soviet Georgia and was heavily influenced by that environment, has frequently cited Martin Margiela as a key inspiration. This has led to a contemporary interpretation of Margiela's work through a post-Soviet lens, but it is not a documented inspiration for the Fall 1997 collection itself. Margiela's influences were rooted in deconstruction, surrealism, and a conceptual approach to design.",
+43,Fashion,Has the CFDA (Council of Fashion Designers of America) issued any sustainability mandates for members in 2025?,icl,"While the Council of Fashion Designers of America (CFDA) has not issued any overarching sustainability *mandates* for its members in 2025, it is actively promoting sustainable practices through various initiatives and partnerships.
+
+A significant development in 2025 is ""The Next Thread Initiative,"" a $6.25 million collaboration between the CFDA and the Bezos Earth Fund. This program aims to support designers and students in developing sustainable fashion through grants and scholarships.
+
+The CFDA also continues to engage with and report on proposed legislation that could impact the industry, such as the New York FASHION Act and California's Responsible Textile Recovery Act. These legislative efforts, however, are government-led and not internal mandates from the CFDA.
+
+Looking ahead, the CFDA has announced a ban on animal fur from all of its sanctioned shows starting in September 2026. While not a 2025 mandate, this indicates a move toward more defined sustainability-related rules for its members in the future.
+
+Sources:
+*  FashionNetwork.com, ""CFDA and Bezos Earth Fund launch $6.25 million initiative to advance sustainable fashion,"" November 1, 2025.
+*  YouTube, ""CFDA & Bezos Earth Fund Launch $6.25M Sustainable Fashion Initiative: The Next Thread,"" November 3, 2025.
+*  CFDA.com, ""RECENT AND PROPOSED LEGISLATION IMPACTING THE TEXTILE AND FASHION INDUSTRIES,"" June 13, 2025.
+*  CFDA.com, ""Recent & Proposed Legislation Impacting the Textile and Fashion Industries,"" February 4, 2025.
+*  Trims, ""CFDA and Bezos Earth Fund Launch $6.25M Sustainability Initiative in Fashion Industry,"" October 30, 2025.
+*  Ethos, ""New York Fashion Week Bans Fur, Joining London and Copenhagen,"" December 3, 2025.",
+44,Fashion,Did a major fashion house use biodegradable sequins in a 2024 couture collection?,icl,"While a definitive confirmation remains elusive, Indian couturier Rahul Mishra's Spring/Summer 2024 collection featured prominent sequined garments. His work often emphasizes sustainability and traditional craftsmanship, but the specific material of the sequins used has not been widely reported as biodegradable.
+
+The broader trend in 2024 haute couture has seen a significant push towards sustainability, with designers incorporating eco-friendly practices and materials. For instance, Iris van Herpen, known for her innovative and sustainable approach, utilized materials like 3D-printed biodegradable elements in her collections. However, there was no specific mention of biodegradable sequins in her 2024 creations.
+
+Similarly, Stéphane Rolland's Spring/Summer 2024 couture collection showcased embellishments such as porcelain and gold silicone, highlighting a move towards unique, non-traditional materials, though not explicitly biodegradable sequins. In his Autumn/Winter 2024-2025 collection, a sequined tunic dress was featured, but details on the sequins' composition were not provided.
+
+While the use of biodegradable materials is a growing movement in haute couture, the specific application of biodegradable sequins by a major fashion house in a 2024 collection has not been explicitly confirmed in available reports.
+
+Sources:",
+45,Fashion,What is haute couture and how does it differ from prêt-à-porter (ready-to-wear)?,icl,"Haute couture, which translates from French as ""high sewing,"" refers to the creation of exclusive, custom-fitted clothing. These garments are meticulously handcrafted, often requiring hundreds of hours of work, and are made to order for a specific client. The designation ""haute couture"" is a legally protected term in France, with the Chambre Syndicale de la Haute Couture setting the standards for which fashion houses can qualify.
+
+Prêt-à-porter, or ready-to-wear, on the other hand, is high-end, factory-produced fashion sold in finished condition and standardized sizes. Unlike the bespoke nature of haute couture, prêt-à-porter collections are not unique and are available to a wider audience, though they are often produced in limited numbers. While inspired by haute couture, ready-to-wear garments are more accessible in terms of both price and availability.
+
+Sources:",
+46,Fashion,Who is considered the founder of the modern fashion industry?,icl,"Charles Frederick Worth, an English designer who opened his house in Paris in 1858, is widely considered the founder of the modern fashion industry. He transformed dressmaking from a craft into an art form and business by introducing revolutionary practices.
+
+Worth was the first to dictate styles to his clients rather than follow their lead, establishing the designer as an arbiter of taste. He pioneered the concept of seasonal collections, showcasing his designs on live models in what became the precursor to the modern fashion show. Furthermore, he was the first to sew branded labels into his garments, a standard practice today. By establishing a central fashion house and transforming the perception of a designer's role, Worth laid the foundation for haute couture and the contemporary fashion system.
+
+Sources:
+* Britannica, T. Editors of Encyclopaedia (2025, October 9). Charles Frederick Worth. *Encyclopedia Britannica*. https://www.britannica.com/biography/Charles-Frederick-Worth
+* Google Arts & Culture. (n.d.). *Charles Frederick Worth*. https://artsandculture.google.com/entity/charles-frederick-worth/m01jpqg
+* Glam Observer. (2023, August 3). *Who was the first Fashion Designer and how the role has changed*. https://glamobserver.com/who-was-the-first-fashion-designer-and-how-the-role-has-changed/
+* The Posh Monk. (2025, March 4). *The Man Who Invented Modern Fashion*. https://www.theposhmonk.com/the-man-who-invented-modern-fashion
+* Wikipedia. (2025, November 22). *Charles Frederick Worth*. https://en.wikipedia.org/wiki/Charles_Frederick_Worth
+* Wikipedia. (2025, November 26). *History of fashion design*. https://en.wikipedia.org/wiki/History_of_fashion_design",https://www.britannica.com/biography/Charles-Frederick-Worth; https://artsandculture.google.com/entity/charles-frederick-worth/m01jpqg; https://glamobserver.com/who-was-the-first-fashion-designer-and-how-the-role-has-changed/; https://www.theposhmonk.com/the-man-who-invented-modern-fashion; https://en.wikipedia.org/wiki/Charles_Frederick_Worth; https://en.wikipedia.org/wiki/History_of_fashion_design
+47,Fashion,What are the four major global fashion weeks?,icl,"The four major global fashion weeks, collectively known as the ""Big Four,"" are New York, London, Milan, and Paris. These events are held twice a year in each city, showcasing designers' upcoming collections for the spring/summer and autumn/winter seasons. The series of events starts in New York, followed by London and Milan, and concludes in Paris. This established order and the prominence of the designers featured solidify their status as the most influential showcases in the fashion industry.
+
+Sources:
+- https://en.wikipedia.org/wiki/Fashion_week
+- https://www.sizebay.com/blog/biggest-fashion-events
+- https://fashionunited.com/fashion-weeks
+- https://cmmodels.com/en/fashion-week-dates-cities-ny-paris-milan-london-the-big-4/
+- https://www.the-v-point.com/post/how-many-fashion-weeks-are-there",https://en.wikipedia.org/wiki/Fashion_week; https://www.sizebay.com/blog/biggest-fashion-events; https://fashionunited.com/fashion-weeks; https://cmmodels.com/en/fashion-week-dates-cities-ny-paris-milan-london-the-big-4/; https://www.the-v-point.com/post/how-many-fashion-weeks-are-there
+48,Fashion,What is the difference between fast fashion and sustainable fashion?,icl,"Fast fashion describes the rapid, low-cost production of trendy clothing that mimics recent runway styles. This model emphasizes speed and affordability to encourage consumers to buy new items frequently. Consequently, this leads to a culture of disposability, significant environmental waste, and often relies on the exploitation of garment workers in low-wage countries. The environmental impact includes the depletion of non-renewable resources, high water consumption, and pollution from textile dyes and synthetic fibers.
+
+Sustainable fashion, in contrast, is an approach that considers the environmental and social impact of clothing production. It prioritizes ethical practices, such as fair wages and safe working conditions for laborers. Environmentally, it focuses on using eco-friendly and durable materials, minimizing waste, and reducing the industry's carbon footprint. The goal of sustainable fashion is to create a more circular system where garments are long-lasting and can be reused, repaired, or recycled.
+
+Sources:
+ https://en.wikipedia.org/wiki/Sustainable_fashion
+ https://www.greenstrategy.se/sustainable-fashion/what-is-sustainable-fashion/
+ https://earth.org/fast-fashion-and-its-environmental-impact/
+ https://www.oxfam.org.uk/oxfam-in-action/oxfam-blog/what-is-sustainable-fashion/
+ https://en.wikipedia.org/wiki/Fast_fashion
+ https://www.immago.com/what-is-sustainable-fashion-and-why-is-it-so-important/
+ https://greensole.in/fast-fashion-vs-sustainable-fashion-making-ethical-choices/
+ https://recovo.co/what-is-sustainable-fashion-why-is-it-so-important/
+ https://lavenderhillclothing.com/blogs/news/the-environmental-impact-of-fast-fashion-vs-sustainable-fashion
+ https://www.britannica.com/topic/fast-fashion
+ https://stateofmatterapparel.com/blogs/news/fast-fashion-vs-sustainable-fashion",https://en.wikipedia.org/wiki/Sustainable_fashion; https://www.greenstrategy.se/sustainable-fashion/what-is-sustainable-fashion/; https://earth.org/fast-fashion-and-its-environmental-impact/; https://www.oxfam.org.uk/oxfam-in-action/oxfam-blog/what-is-sustainable-fashion/; https://en.wikipedia.org/wiki/Fast_fashion; https://www.immago.com/what-is-sustainable-fashion-and-why-is-it-so-important/; https://greensole.in/fast-fashion-vs-sustainable-fashion-making-ethical-choices/; https://recovo.co/what-is-sustainable-fashion-why-is-it-so-important/; https://lavenderhillclothing.com/blogs/news/the-environmental-impact-of-fast-fashion-vs-sustainable-fashion; https://www.britannica.com/topic/fast-fashion; https://stateofmatterapparel.com/blogs/news/fast-fashion-vs-sustainable-fashion
+49,Fashion,Who was Coco Chanel and what is her contribution to women’s fashion?,icl,"Gabrielle ""Coco"" Chanel was a pioneering French fashion designer who revolutionized women's fashion in the 20th century. She is credited with liberating women from the constraints of corsets and popularizing a more casual, elegant, and comfortable style.
+
+Her major contributions include the iconic ""little black dress,"" which transformed a color once reserved for mourning into a versatile staple. She also introduced the Chanel suit, adapting menswear to create sophisticated and practical outfits for women. Chanel championed the use of jersey, a fabric previously used for men's underwear, for its comfort and practicality. Additionally, she made costume jewelry fashionable and created the legendary perfume, Chanel No. 5.
+
+Sources:
+* https://www.britannica.com/biography/Coco-Chanel
+* https://www.domestika.org/en/blog/10631-coco-chanel-s-revolution-in-fashion
+* https://fashinnovation.nyc/behind-the-fashion-icon-coco-chanel-story/
+* https://fashion-journal.com/brand-directory/coco-chanels-revolution-how-she-changed-womens-fashion-forever/
+* https://en.wikipedia.org/wiki/Coco_Chanel
+* https://fashion-journal.com/brand-directory/coco-chanels-impact-on-fashion/
+* https://wordnerd.ai/case-study-the-influence-of-coco-chanel-on-fashion/",https://www.britannica.com/biography/Coco-Chanel; https://www.domestika.org/en/blog/10631-coco-chanel-s-revolution-in-fashion; https://fashinnovation.nyc/behind-the-fashion-icon-coco-chanel-story/; https://fashion-journal.com/brand-directory/coco-chanels-revolution-how-she-changed-womens-fashion-forever/; https://en.wikipedia.org/wiki/Coco_Chanel; https://fashion-journal.com/brand-directory/coco-chanels-impact-on-fashion/; https://wordnerd.ai/case-study-the-influence-of-coco-chanel-on-fashion/
